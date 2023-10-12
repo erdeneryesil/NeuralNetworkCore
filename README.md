@@ -1,4 +1,7 @@
 # NeuralNetworkCore
+![1](https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/7761eb9f-b0f0-4313-8eee-c53cf012eef0)
+
+
 # Başlık 1
 ## Başlık 2
 ### Başlık 3
