@@ -258,6 +258,11 @@ ANN data types into which real-world input values will be converted
 <img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/6fdcf091-b52a-4405-b571-0bcda60619bb" height="500"/>
 </p>
 
+
+<p align="center">
+<img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/5598669b-c818-4e5f-a2b2-292aa4a50e35" height="500"/>
+</p>
+
 Number of hidden layers
 - 2
 
