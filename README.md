@@ -45,7 +45,7 @@ Models the cells in an output layer.
 
 ### Class InputLayerPattern
 <p align="center">
-<img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/93bf5acd-3f1d-477e-9dde-b097127538b1" width="500"/>
+<img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/93bf5acd-3f1d-477e-9dde-b097127538b1" width="700"/>
 </p>
 Contains and manages the features of the input layer of a artificial neural network. This class can be considered as a template. The features of the input layer are handled by this class. But cells(or neurons) that compose the input layer of a artificial neural network are not included in this class.
 
@@ -53,7 +53,7 @@ In the content of this class, how many real-world data are passed to the input o
 
 ### Class HiddenLayerPattern
 <p align="center">
-<img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/29c6f441-d7ee-4b0e-bfc4-313c6bb7d509" width="500"/>
+<img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/29c6f441-d7ee-4b0e-bfc4-313c6bb7d509" width="700"/>
 </p>
 Contains and manages the features of the hidden layers of a artificial neural network. This class can be considered as a template just like classes InputLayerPattern and OutputLayerPattern. Cells(or neurons) that compose the hidden layers of a artificial neural network are not included in this class.
 
