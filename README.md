@@ -302,6 +302,13 @@ Tolerances of the output cells
 
 
 
+Applications with 3 different interfaces developed based on the NeuralNetworkCore library:
+- <a href="https://github.com/erdeneryesil/NeuralNetworkCore/tree/master/NeuralNetworkTerminal">NeuralNetworkTerminal</a>,
+- <a href="https://github.com/erdeneryesil/NeuralNetworkCore/tree/master/NeuralNetworkGui">NeuralNetworkGui</a>,
+- <a href="https://github.com/erdeneryesil/NeuralNetworkCore/tree/master/NeuralNetworkMnist">NeuralNetworkMnist</a>
+
+
+
 
 
 
