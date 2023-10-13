@@ -301,13 +301,13 @@ Tolerances of the output cells
 - 0.1
 
 
-
+## Use Of NeuralNetworkCore Library
 Applications with 3 different interfaces developed based on the NeuralNetworkCore library:
-- <a href="https://github.com/erdeneryesil/NeuralNetworkCore/tree/master/NeuralNetworkTerminal">NeuralNetworkTerminal</a>,
-- <a href="https://github.com/erdeneryesil/NeuralNetworkCore/tree/master/NeuralNetworkGui">NeuralNetworkGui</a>,
+- <a href="https://github.com/erdeneryesil/NeuralNetworkCore/tree/master/NeuralNetworkTerminal">NeuralNetworkTerminal</a>
+- <a href="https://github.com/erdeneryesil/NeuralNetworkCore/tree/master/NeuralNetworkGui">NeuralNetworkGui</a>
 - <a href="https://github.com/erdeneryesil/NeuralNetworkCore/tree/master/NeuralNetworkMnist">NeuralNetworkMnist</a>
 
-
+The source codes of the NeuralNetworkCore library are located in the 'neural_network_core' directory in these 3 projects. Detailed explanations about the classes can be found in the comment lines of the 'cell.h', 'data.h' and 'neural_network.h' files located in the 'neural_network_core' directory.
 
 
 
