@@ -207,8 +207,8 @@ Let's see how to design the input, hidden and output layers of an artificial neu
 The example problem is a dataset containing the annual health expenses of a certain number of people living in USA. Some of the characteristics and qualities that individuals have in the list are also included in this data set.
 
 The columns in the list:
-- Age		: Person’s age. It is an integer.
-  It is already numerical data, there is no need for any digitization.
+- <p>Age		: Person’s age. It is an integer.</p>
+  <p>It is already numerical data, there is no need for any digitization.</p>
   
 - Sex		: Person’s gender. It is a categorical data. Options: Female, Male.
   Digitization of it : Female=0, Male=1
@@ -235,7 +235,7 @@ The columns in the list:
   50000-65000			:	6
   
 <p>Inputs : Age, Sex, Bmi, Children, Smooker, Region</p>
-<p>Outputs: Charges</p>
+<p>Output: Charges</p>
 
 
 The artificial neural network created to learn this example.
