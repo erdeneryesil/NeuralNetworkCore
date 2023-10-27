@@ -228,11 +228,12 @@ The columns in the list:
 - <p>Charges	: Individual medical costs billed by health insurance. It is a decimal number.</p>
   <p>Since this data has a very wide range, it was divided into a total of 7 categories</p>
   
-  - 0-5000				: 	0
-  - 5000-10000			:	1
-  - .
-  - .
-  - .
+  - 0-5000				    : 0
+  - 5000-10000			 :	1
+  - 10000-15000   : 2
+  - 15000-25000   : 3
+  - 25000-35000   : 4
+  - 35000-50000   : 5
   - 50000-65000			:	6
   
 <p>Inputs : Age, Sex, Bmi, Children, Smooker, Region</p>
