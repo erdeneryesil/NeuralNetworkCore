@@ -208,31 +208,32 @@ The example problem is a dataset containing the annual health expenses of a cert
 
 The columns in the list:
 - <p>Age		: Person’s age. It is an integer.</p>
-  <p>  It is already numerical data, there is no need for any digitization.</p>
+  <p>It is already numerical data, there is no need for any digitization.</p>
   
-- Sex		: Person’s gender. It is a categorical data. Options: Female, Male.
-  Digitization of it : Female=0, Male=1
+- <p>Sex		: Person’s gender. It is a categorical data. Options: Female, Male.</p>
+  <p>Digitization of it : Female=0, Male=1</p>
   
-- Bmi		: The person's body mass index. It is a decimal number. The part on the right side of the decimal point consists 3 digits.
-  Transformation: To convert body mass index values into integers, they are multiplied by 1000.
+- <p>Bmi		: The person's body mass index. It is a decimal number. The part on the right side of the decimal point consists 3 digits.</p>
+  <p>Transformation: To convert body mass index values into integers, they are multiplied by 1000.</p>
   
-- Children	: Number of children covered by the person's health insurance / Number of dependents of the person.It is an integer.
-  It is already numerical data, there is no need for any digitization.
+- <p>Children	: Number of children covered by the person's health insurance / Number of dependents of the person.It is an integer.</p>
+  <p>It is already numerical data, there is no need for any digitization.</p>
   
-- Smooker	: Whether the person smokes or not. It is a categorical data. Options: Yes, No:Hayır.
-  Digitization of it : No=-1, Yes=1 (The values -1 and 1 were determined arbitrarily).
+- <p>Smooker	: Whether the person smokes or not. It is a categorical data. Options: Yes, No:Hayır.</p>
+  <p>Digitization of it : No=-1, Yes=1 (The values -1 and 1 were determined arbitrarily).</p>
   
-- Region	: The region where the person lives. It is a categorical data. Options: Southeast , Northeast , Northwest , Southwest.
-  Digitization of it :   Southeast = -2, Northeast = -1, Northwest = 1, Southwest = 2 (The values were determined arbitrarily).
+- <p>Region	: The region where the person lives. It is a categorical data. Options: Southeast , Northeast , Northwest , Southwest.</p>
+  <p>Digitization of it :   Southeast = -2, Northeast = -1, Northwest = 1, Southwest = 2 (The values were determined arbitrarily).</p>
   
-- Charges	: Individual medical costs billed by health insurance. It is a decimal number.
-  Since this data has a very wide range, it was divided into a total of 7 categories
-  0-5000				: 	0
-  5000-10000			:	1
-  .
-  .
-  .
-  50000-65000			:	6
+- <p>Charges	: Individual medical costs billed by health insurance. It is a decimal number.</p>
+  <p>Since this data has a very wide range, it was divided into a total of 7 categories</p>
+  
+  - 0-5000				: 	0
+  - 5000-10000			:	1
+  - .
+  - .
+  - .
+  - 50000-65000			:	6
   
 <p>Inputs : Age, Sex, Bmi, Children, Smooker, Region</p>
 <p>Output: Charges</p>
