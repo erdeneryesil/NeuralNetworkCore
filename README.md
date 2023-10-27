@@ -204,16 +204,35 @@ For ANN file:
 Let's see how to design the input, hidden and output layers of an artificial neural network on an <a href="https://www.kaggle.com/datasets/mirichoi0218/insurance
 " >example problem.</a>
 
-A dataset of annual medical costs of a certain number of people living in USA. It also includes several characteristics and qualities that individuals have.
+The example problem is a dataset containing the annual health expenses of a certain number of people living in USA. Some of the characteristics and qualities that individuals have in the list are also included in this data set.
 
-Columns:
-- Age		: Age of the person
-- Sex		: Genderof the person
-- Bmi		: Body mass index
-- Children	: Number of children covered by health insurance / Number of dependents
-- Smooker	: Whether the person smokes or not.
-- Region	: The person's residential area in the US, northeast, southeast, southwest, northwest.
-- Charges	: Individual medical costs billed by health insurance
+The columns in the list:
+- Age		: Person’s age. It is an integer.
+  It is already numerical data, there is no need for any digitization.
+  
+- Sex		: Person’s gender. It is a categorical data. Options: Female, Male.
+  Digitization of it : Female=0, Male=1
+  
+- Bmi		: The person's body mass index. It is a decimal number. The part on the right side of the decimal point consists 3 digits.
+  Transformation: To convert body mass index values into integers, they are multiplied by 1000.
+  
+- Children	: Number of children covered by the person's health insurance / Number of dependents of the person.It is an integer.
+  It is already numerical data, there is no need for any digitization.
+  
+- Smooker	: Whether the person smokes or not. It is a categorical data. Options: Yes, No:Hayır.
+  Digitization of it : No=-1, Yes=1 (The values -1 and 1 were determined arbitrarily).
+  
+- Region	: The region where the person lives. It is a categorical data. Options: Southeast , Northeast , Northwest , Southwest.
+  Digitization of it :   Southeast = -2, Northeast = -1, Northwest = 1, Southwest = 2 (The values were determined arbitrarily).
+  
+- Charges	: Individual medical costs billed by health insurance. It is a decimal number.
+  Since this data has a very wide range, it was divided into a total of 7 categories
+  0-5000				: 	0
+  5000-10000			:	1
+  .
+  .
+  .
+  50000-65000			:	6
   
 <p>Inputs : Age, Sex, Bmi, Children, Smooker, Region</p>
 <p>Outputs: Charges</p>
