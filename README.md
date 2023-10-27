@@ -208,7 +208,7 @@ The example problem is a dataset containing the annual health expenses of a cert
 
 The columns in the list:
 - <p>Age		: Person’s age. It is an integer.</p>
-  <p>It is already numerical data, there is no need for any digitization.</p>
+  <p>>It is already numerical data, there is no need for any digitization.</p>
   
 - Sex		: Person’s gender. It is a categorical data. Options: Female, Male.
   Digitization of it : Female=0, Male=1
