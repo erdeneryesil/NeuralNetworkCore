@@ -71,7 +71,6 @@ The number of real-world data that will be passed to the input layer of the arti
 - The number of input data in the example problem is 6.
 
 ### Step 3 : TYPES OF INPUT DATA
-
 <p align="center">
 <img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/85fcd290-0abd-41e7-883e-73898b5bbace" width="800"/>
 </p>
@@ -84,7 +83,6 @@ Real-world input data passed to the artificial neural network must be converted 
 - Region - Flag <br />
 
 ### Step 4 : LIMITS OF INPUT DATA
-
 <p align="center">
 <img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/02b5f7a4-e052-40aa-ac8a-861e9e9c8283" width="800"/>
 </p>
@@ -100,7 +98,6 @@ The min and max range of the input values must be entered.<br /><br />
 <p align="center">
 <img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/08b68f87-e5d7-48a8-8cca-5cceb78ec6f9" width="800"/>
 </p>
-
 Number of hidden layers.<br /><br />
 -Let the number of hidden layers be set to 2. 
 
@@ -110,4 +107,142 @@ Number of hidden layers.<br /><br />
 </p>
 The cell numbers of the first and second hidden layers must be entered respectively.<br /><br />
 - Let there be 22 cells in the first hidden layer and 18 cells in the second hidden layer.
+
+### Step 7 : SUMMATION FUNCTIONS OF HIDDEN LAYERS
+<p align="center">
+<img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/5c9d45db-d2ea-4e8b-bcae-abbc4c305d58" width="800"/>
+</p>
+The summation functions of the hidden layers must be entered.<br /><br />
+- Let both be WeightedTotal, so let's enter 0 for both.
+
+### Step 8 : ACTIVATION FUNCTIONS OF HIDDEN LAYERS
+<p align="center">
+<img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/3af89375-0015-41a2-9169-84ff04e6e905" width="800"/>
+</p>
+The activationfunctions of the hidden layers must be entered.<br /><br />
+- Let the activation function of the first hidden layer be TanH, let's enter 1.<br />
+- Let the activation function of the second hidden layer be Sigmoid, let's enter 0.
+
+### Step 9 : NUMBER OF OUTPUT DATA
+<p align="center">
+<img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/dc5e11fc-cc7a-4f1a-b3ca-0cee5fe878e0" width="800"/>
+</p>
+Number of output data must be entered.<br /><br />
+- In the example problem, 1 should be entered since only the medical expense amount will be used as the output.
+
+### Step 10 : TYPES OF OUTPUT DATA
+<p align="center">
+<img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/1470fc48-93ba-4ce4-b65a-91ceff9fba3c" width="800"/>
+</p>
+Just like inputs, output data needs to be converted into 'ANN data types' that the artificial neural network can process.<br /><br />
+ - Charges - Flag 
+
+
+### Step 11 : SUMMATION FUNCTION OF OUTPUT LAYER
+<p align="center">
+<img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/8ded4c9f-6e71-480f-b551-41e0677bd55a" width="800"/>
+</p>
+The summation function of the output layers must be entered.<br /><br />
+- Let the summation function of the output layer be WeightedTotal , let's enter 0.
+
+
+### Step 12 : ACTIVATION FUNCTION OF OUTPUT LAYER
+<p align="center">
+<img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/ca5a2739-ceb4-446b-902e-9d57095cf97b" width="800"/>
+</p>
+The activation function of the output layers must be entered.<br /><br />
+- Let the activation function of the output layer be Sigmoid, let's enter 0.
+
+
+### Step 13 : LIMITS OF OUTPUT DATA
+<p align="center">
+<img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/3bcfaec6-b519-41f8-9394-ba30dc40c3a8" width="800"/>
+</p>
+The min and max range of the output value must be entered.<br /><br />
+- Charges: Min= 0, Max=6
+
+
+### Step 14 : TOLERANCES OF OUTPUT DATA
+<p align="center">
+<img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/c11fa782-ec43-453f-a6c1-6dc27b943c6e" width="800"/>
+</p>
+Tolerances of the output cells must be entered. When training our network, what is the acceptable margin of error regarding the expected outputs from the output cells? Each output cell will produce a value between 0 and 1. Therefore, we must take this into consideration when determining the tolerance.<br /><br />
+- Let the tolerance value be 0.1.
+
+### Step 15 : TRAININGS SETTINGS
+<p align="center">
+<img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/677c825f-96be-4698-8987-5bad1291a6e3" width="800"/>
+</p>
+- Lambda = 0.015 <br />
+- Alfa = 0.15 <br />
+- When the artificial neural network is first created, the weight value of each cell's connections is determined randomly. The min and max range of that random values needs to be specified.  
+Random weight min =-1, Random weight  max=+1 <br />
+
+### Step 16 : SEPARATOR CHARACTER
+<p align="center">
+<img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/31260e60-214c-4c24-b030-ea143b908b09" width="800"/>
+</p>
+All data related to the artificial neural network is stored in files, and when sorting the data in the files, a character must be placed between them.<br /><br />
+- Let's set the separator character as a semicolon and enter 2.
+
+### Step 17 : FILE NAME
+<p align="center">
+<img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/9516deca-a008-4a11-a0b0-082c442c65e5" width="800"/>
+</p>
+The names of the files in which the features of the artificial neural network are stored need to be determined.<br /><br />
+-  Let the file name be 'insurance'<br /><br />
+
+<p align="center">
+<img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/6bc79392-ef3a-4a8e-85b2-d98ef16f3aa1" width="800"/>
+</p>
+
+Two files were created named 'insurance' and 'insuranceEW'.<br />
+
+<b>'insurance'</b> file stores the properties and parameters of the artificial neural network.<br />
+<b>'insuranceEW'</b> file will store the training records of the artificial neural network.
+
+
+## Opening an Existing Neural Network
+### Step 1 : OPEN OR CREATE A NEURAL NETWROK
+<p align="center">
+<img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/d9cb1e39-2d3a-48d4-9ec4-23c8f49cc511" width="800"/>
+</p>
+
+It has been mentioned before that there are 2 options in the "OPEN OR CREATE NEURAL NETWORK" stage. <br /><br />
+-To open a previously saved artificial neural network, 0 must be entered.
+
+### Step 2 : SEPARATOR CHARACTER
+<p align="center">
+<img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/0d070e24-8de3-4545-94c1-4f0f3fb050d7" width="800"/>
+</p>
+The separator character used in existing artificial neural network files. <br /><br />
+- Since we set the separator character of our previously saved artificial neural network as a semicolon, let's enter 2.
+
+### Step 3 : FILE LOCATION
+<p align="center">
+<img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/1e35ee28-ff1d-4cbd-84bb-8a5129e4bfe5" width="800"/>
+</p>
+Location of the saved artificial neural network file.<br /><br />
+- Since our artificial neural network file is located where the source files of the project are located, we just need to write the name of the file. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
