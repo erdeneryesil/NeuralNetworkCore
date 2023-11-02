@@ -208,8 +208,7 @@ Two files were created named 'insurance' and 'insuranceEW'.<br />
 <img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/d9cb1e39-2d3a-48d4-9ec4-23c8f49cc511" width="800"/>
 </p>
 
-It has been mentioned before that there are 2 options in the "OPEN OR CREATE NEURAL NETWORK" stage. <br /><br />
--To open a previously saved artificial neural network, 0 must be entered.
+It has been mentioned before that there are 2 options in the "OPEN OR CREATE NEURAL NETWORK" stage. <br /><br />- To open a previously saved artificial neural network, 0 must be entered.
 
 ### Step 2 : SEPARATOR CHARACTER
 <p align="center">
@@ -226,16 +225,118 @@ Location of the saved artificial neural network file.<br /><br />
 - Since our artificial neural network file is located where the source files of the project are located, we just need to write the name of the file. 
 
 
+## Operation
+<p align="center">
+<img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/fe9898fa-831e-4356-8e23-3099d5c68549" width="800"/>
+</p>
+When a new artificial neural network is created or an existing one is opened, you will be asked what to do.<br /><br />
+Operations that can be run using the artificial neural network<br /><br />
+0 - Train (Training the artificial neural network)<br />
+1 - Test  (Testing the artificial neural network)<br />
+2 - Run (Getting the output value by passing the input values to the artificial neural network)<br />
+3 - Inform (Listing the features of the artificial neural network.)<br />
+
+## Training the Artificial Neural Network
+<p align="center">
+<img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/ecebe0e7-f749-4484-895c-c0c881f74532" width="800"/>
+</p>
+The artificial neural network can be trained by entering 0 in <b>Operation</b> menu.<br /><br />
+- Let’s enter 0.<br />
+<p align="center">
+<img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/55ad77a8-651e-40dd-804f-476e7c1f424c" width="800"/>
+</p>
+Let's put the training and test set files(<b>Train</b>, <b>Test</b>) in the source file directory, just like <b>insurance</b> and <b>insuranceEW</b> files.<br /> <br />
+There were a total of 1338 rows in the dataset of our example problem. In other words, information about 1338 people is included in our data set. 
+But since we categorized the <b>Charges</b> column between 0-6, data repetition occurred in some records. records decreased from 1338 to 1335, meaning 3 rows were deleted. 
+Of the 1335 rows, 935 were transferred to the training set and 400 were transferred to the test set.
+
+### Step 1 : TRAIN
+<p align="center">
+<img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/b8a49b96-54c7-4402-9488-1841804b509c" width="800"/>
+</p>
+ - First, let's enter the location of the <b>Train</b> file. Next, let's enter the value 935 since all samples are wanted to be used. <br />
+
+<p align="center">
+<img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/49074447-5aac-4743-922d-fa0d4abbec9f" width="800"/>
+</p>
+- The artificial neural network will start training. At the end of each epoch, the total error value and the number of updated weights are displayed.<br />
+
+<p align="center">
+<img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/511ffaf8-5009-43ff-a7b3-aa382d4840db" width="800"/>
+</p>
+- In this example scenario, the training of the artificial neural network is terminated by the user by pressing the 'q' key on the keyboard when the 7225th epoch value is reached.
+
+## Testing The Artificial Neural Network
+<p align="center">
+<img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/045d961e-6490-4a29-90c3-69805570c89d" width="800"/>
+</p>
+The artificial neural network can be tested by entering 1 in <b>Operation</b> menu.<br /><br />
+- Let’s enter 1.
 
 
+### Step 1 : TEST
+<p align="center">
+<img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/a2dff670-09a6-4160-9572-b622fc63d3fa" width="800"/>
+</p>
+  - First, let's enter the location of the Test file. Next, let's enter the value 400 since all samples are wanted to be used.<br />
+  
+<p align="center">
+<img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/906bca03-98c6-4f6e-bd3f-08665ac6b835" width="800"/>
+</p>
+Testing is completed. It failed to predict 38 out of 400 examples. Success rate is 90.5%
+
+## Running The Artificial Neural Network
+<p align="center">
+<img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/7363672a-cccb-4e52-95c5-ff13c16ff9b4" width="800"/>
+</p>
+The artificial neural network can be run by entering 2 in <b>Operation</b> menu.<br /><br />
+- Let’s enter 2.
+
+### Step 1 : RUN
+<p align="center">
+<img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/c8557f97-4063-4daf-9318-49315b677e7d" width="800"/>
+</p>
+Input values are passed. <br /> <br />
+- Age			52 <br />
+- Sex			1 (Male) <br />
+- Bmi			42947 <br />
+- Children		2 <br />
+- Smooker		-1 (He doesn't smoke.) <br />
+- Region		1 (Northwest) <br />
+
+<p align="center">
+<img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/8a184818-5b15-466b-a66c-8f5e456e0ef2" width="800"/>
+</p>
+
+Output	: 4 (25K-35K)
 
 
+## Displaying The Features Of The Artificial Neural Network
+<p align="center">
+<img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/2ec32ff8-4336-4bdb-a33b-e12ba17bcb24" width="800"/>
+</p>
+The features of the artificial neural network can be listed by entering 3 from the <b>Operation</b> menu.<br /><br />
+-  Let’s enter 3.<br />
 
+<p align="center">
+<img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/29d90f25-b7de-49ed-85db-9c0f191a7cde" width="800"/>
+</p>
 
+# Attention
+The files related to this example problem have been moved to  'Sample' directory, you can obtain them from there. You should take this into consideration when specifying the location of the artificial neural network file. 
+Descriptions of the files in the 'Sample' directory are below.<br /><br />
 
+- <b>insurance 			:</b>  The file that we created previously and where the properties and parameters of the artificial neural network are stored. This artificial neural network has not been trained yet.<br />
 
+- <b>insuranceEW			:</b> The file where the training records of the artificial neural network we created previously will be stored. This file is empty because the artificial neural network has not been trained yet.<br />
 
+- <b>insuranceTrained		:</b> This is the file where the state of the artificial neural network saved in the 'insurance' file is stored after 7225 epochs of training.<br />
 
+- <b>insuranceTrainedEW	:</b> It is the file where the training records of the artificial neural network are stored. Calculated at every epoch, it stores information such as total error values and numbers of updated weight.<br />
+
+- <b>Train				:</b> The training set file.<br />
+
+- <b>Test				:</b> The test set file.<br />
 
 
 
