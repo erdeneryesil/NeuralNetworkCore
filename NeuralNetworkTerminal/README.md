@@ -101,9 +101,8 @@ The min and max range of the input values must be entered.<br /><br />
 <img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/08b68f87-e5d7-48a8-8cca-5cceb78ec6f9" width="800"/>
 </p>
 
-Number of hidden layers <br /><br />
-- Let the number of hidden layers be set to 2. 
-
+Number of hidden layers.<br /><br />
+-Let the number of hidden layers be set to 2. 
 
 ### Step 6 : CELL NUMBERS OF HIDDEN LAYERS
 <p align="center">
