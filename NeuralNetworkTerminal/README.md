@@ -1,7 +1,7 @@
 # NeuralNetworkTerminal
 
 <p align="center">
-<img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/6793f415-9f60-4ddf-9627-bd88ae2da029" width="500"/>
+<img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/6793f415-9f60-4ddf-9627-bd88ae2da029" width="800"/>
 </p>
 
 NeuralNetworkTerminal is an application run in terminal, where operations such as creating, training and testing an artificial neural network can be performed using the NeuralNetworkCore library.
@@ -54,7 +54,7 @@ The dataset contains 7 fields. The first 6 of these will be our input data, and 
 ## Creating a New Artificial Neural Network
 ### Step 1 : OPEN OR CREATE A NEURALNETWORK
 <p align="center">
-<img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/356ed31d-9ad8-4c73-8494-5d498ab25157" width="500"/>
+<img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/356ed31d-9ad8-4c73-8494-5d498ab25157" width="800"/>
 </p>
 
 There are 2 options at the "OPEN OR CREATE A NEURALNETWORK" stage.<br /><br />
@@ -65,7 +65,7 @@ The properties of the artificial neural network need to be determined step by st
 
 ### Step 2 : NUMBER OF INPUT DATA
 <p align="center">
-<img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/8b4850b6-24a1-42b4-b1dd-31b5530ec681" width="500"/>
+<img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/8b4850b6-24a1-42b4-b1dd-31b5530ec681" width="800"/>
 </p>
 The number of real-world data that will be passed to the input layer of the artificial neural network needs to be entered.<br /><br />
 - The number of input data in the example problem is 6.
@@ -73,7 +73,7 @@ The number of real-world data that will be passed to the input layer of the arti
 ### Step 3 : TYPES OF INPUT DATA
 
 <p align="center">
-<img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/85fcd290-0abd-41e7-883e-73898b5bbace" width="500"/>
+<img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/85fcd290-0abd-41e7-883e-73898b5bbace" width="800"/>
 </p>
 Real-world input data passed to the artificial neural network must be converted to ‘ANN data types' before it can be processed by the neural network.<br /><br />
 - Age - Binary <br />
@@ -86,16 +86,29 @@ Real-world input data passed to the artificial neural network must be converted 
 ### Step 4 : LIMITS OF INPUT DATA
 
 <p align="center">
-<img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/02b5f7a4-e052-40aa-ac8a-861e9e9c8283" width="500"/>
+<img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/02b5f7a4-e052-40aa-ac8a-861e9e9c8283" width="800"/>
+</p>
+The min and max range of the input values must be entered.<br /><br />
+- Age : min=18, max=64 <br />
+- Sex : That was converted to Native. That's why Min= 0, Max=1 <br />
+- Bmi : Min=15960, Max=53130 <br />
+- Children : Min=0, Max=5 <br />
+- Smoker : Min = -1 Max=1 <br />
+- Region : Min= -2, Max=+2 <br />
+
+### Step 5 : NUMBER OF HIDDEN LAYER
+<p align="center">
+<img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/08b68f87-e5d7-48a8-8cca-5cceb78ec6f9" width="800"/>
 </p>
 
+Number of hidden layers <br /><br />
+- Let the number of hidden layers be set to 2. 
 
 
-
-
-
-
-
-
-
+### Step 6 : CELL NUMBERS OF HIDDEN LAYERS
+<p align="center">
+<img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/05ac7cf2-5c8e-4f81-87bf-061985007710" width="800"/>
+</p>
+The cell numbers of the first and second hidden layers must be entered respectively.<br /><br />
+- Let there be 22 cells in the first hidden layer and 18 cells in the second hidden layer.
 
