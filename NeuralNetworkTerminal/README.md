@@ -19,24 +19,37 @@ The example problem is a dataset containing the annual health expenses of a cert
 
 The columns in the list:
 
-Age		:	Person’s age. It is an integer.
+<b>Age		:</b>	Person’s age. It is an integer.<br />
 It is already numerical data, there is no need for any digitization.
 
-Sex		:	Person’s gender. It is a categorical data. Options: Female, Male.
+<b>Sex		:</b>	Person’s gender. It is a categorical data.<br />
+Options: Female, Male.<br />
 Digitization of it : Female=0, Male=1
 
-Bmi		:	The person's body mass index. It is a decimal number. The part on the right side of the decimal point consists 3 digits.
+<b>Bmi		:</b>	The person's body mass index. It is a decimal number. The part on the right side of the decimal point consists 3 digits.<br />
 Transformation: To convert body mass index values into integers, they are multiplied by 1000.
 
-Children	:	Number of children covered by the person's health insurance / Number of dependents of the person.It is an integer.
+<b>Children	:</b>	Number of children covered by the person's health insurance / Number of dependents of the person.It is an integer.<br />
 It is already numerical data, there is no need for any digitization.
 
-Smoker		:	Whether the person smokes or not. It is a categorical data. Options: Yes, No:Hayır  
+<b>Smoker		:</b>	Whether the person smokes or not. It is a categorical data.<br />
+Options: Yes, No  <br />
 Digitization of it : No=-1, Yes=1 (The values -1 and 1 were determined arbitrarily.)
 
-Region		:	The region where the person lives. It is a categorical data. 
- Options: Southeast , Northeast , Northwest , Southwest . 
+<b>Region		:</b>	The region where the person lives. It is a categorical data. <br />
+Options: Southeast , Northeast , Northwest , Southwest . <br />
 Digitization of it :   Southeast = -2, Northeast = -1, Northwest = 1, Southwest = 2 (The values were determined arbitrarily.)
 
-Charges	:	Individual medical costs billed by health insurance. It is a decimal number.
-Since this data has a very wide range, it was divided into a total of 7 categories
+<b>Charges	:</b>	Individual medical costs billed by health insurance. It is a decimal number.<br />
+Since this data has a very wide range, it was divided into a total of 7 categories <br /><br />
+0-5000 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; : 	0 <br />
+5000-10000 &nbsp; &nbsp; &nbsp; :	1 <br />
+10000-15000 &nbsp; &nbsp; :	2 <br />
+15000-25000 &nbsp; &nbsp; :	3 <br />
+25000-35000 &nbsp; &nbsp; :	4 <br />
+35000-50000 &nbsp; &nbsp; :	5 <br />
+50000-65000 &nbsp; &nbsp; :	6 <br /><br />
+The dataset contains 7 fields. The first 6 of these will be our input data, and the last column, charges, will be our output data.
+
+## Creating a New Artificial Neural Network
+### Step 'OPEN OR CREATE A NEURALNETWORK'
