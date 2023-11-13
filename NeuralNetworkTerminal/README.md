@@ -323,8 +323,8 @@ The features of the artificial neural network can be listed by entering 3 from t
 </p>
 
 # Attention
-The files related to this example problem have been moved to  'Sample' directory, you can obtain them from there. You should take this into consideration when specifying the location of the artificial neural network file. 
-Descriptions of the files in the 'Sample' directory are below.<br /><br />
+The files related to this example problem have been moved to  'sample' directory, you can obtain them from there. You should take this into consideration when specifying the location of the artificial neural network file. 
+Descriptions of the files in the 'sample' directory are below.<br /><br />
 
 - <b>insurance 			:</b>  The file that we created previously and where the properties and parameters of the artificial neural network are stored. This artificial neural network has not been trained yet.<br />
 
