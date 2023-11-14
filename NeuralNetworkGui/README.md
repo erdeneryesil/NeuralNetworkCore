@@ -233,6 +233,129 @@ The summation function, the activation function and the tolerance values of the 
 
 The lambda and the alpha values of an existing artificial neural network can be updated. The separator character and file name cannot be edited.
 
+## Training the Artificial Neural Network
+<p align="center">
+<img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/7e76e029-7fb1-4cac-8ef1-26b3469cd1aa" width="600"/>
+</p>
+
+First, let's put the training and test set files(<b>Train</b>, <b>Test</b>) in <b>sample</b> directory, just like the insurance and insuranceEW files.
+
+There were a total of 1338 rows in the dataset of our example problem. In other words, information about 1338 people is included in our data set. But since we categorized the <b>Charges</b> column between 0-6, data repetition occurred in some records. The records decreased from 1338 to 1335, meaning 3 rows were deleted. 
+Of the 1335 rows, 935 were transferred to the training set and 400 were transferred to the test set.
+
+<p align="center">
+<img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/04f82540-6de2-4817-8832-b7e42e88b8e9" width="800"/>
+</p>
+
+<b>Train</b> button is clicked.
+
+<p align="center">
+<img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/ccc04d1c-22eb-4c47-89ce-afb47dc0a210" width="800"/>
+</p>
+
+Let's enter the location of <b>Train</b> file, which contains the samples we will use to train our network, and the number 935 since we want to use all the samples in this file.
+
+<p align="center">
+<img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/4ac781fa-94eb-4aab-b51a-c1353d7141c1" width="800"/>
+</p>
+
+The artificial neural network will start training. Epoch, total error value and number of updated weights are displayed simultaneously.
+
+<p align="center">
+<img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/d5ee2c7d-9696-487f-ac59-10d54fb5d60e" width="800"/>
+</p>
+
+As soon as the training starts, the text on the <b>Train</b> button changes to <b>'Stop Training'</b>. To stop the training, it is necessary to press the same button again.
+
+
+<p align="center">
+<img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/81962ca8-4eb0-4b67-bd51-1fccb9051132" width="800"/>
+</p>
+
+By checking the <b>Show Graph</b>, the total error value and the number of updated weights can be displayed on the graph.
+
+
+<p align="center">
+<img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/862c1822-ee06-4d7a-afbc-04e5269b638c" width="800"/>
+</p>
+
+The blue dots represent the numbers of updated weights, and the red dots represent the total error values.
+
+
+<p align="center">
+<img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/ba00944f-e610-467a-a7f3-30c1007b5611" width="800"/>
+</p>
+
+In this example scenario, the training of the artificial neural network is terminated by the user by clicking <b>Stop Training</b> button when the 7225th epoch value is reached.
+
+
+## Testing The Artificial Neural Network
+
+<p align="center">
+<img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/51e274f7-9a1b-4a1b-bdde-556417e9b669" width="800"/>
+</p>
+
+<b>Test</b> button is clicked.
+
+
+<p align="center">
+<img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/1f78bdd6-a4ac-4dbb-a7ce-dccf6629871a" width="800"/>
+</p>
+
+Let's enter the location of <b>Test</b> file, which contains the samples we will use to test our network, and the number 400 since we want to use all the samples in this file.
+
+
+<p align="center">
+<img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/9ad1e98f-5c44-4268-a4d2-405f40383ff2" width="800"/>
+</p>
+
+Testing is completed. It failed to predict 38 out of 400 examples. Success rate is 90.5%
+
+
+## Running the Artificial Neural Network
+
+<p align="center">
+<img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/ed68774d-189b-4106-b9ca-c1a25883665d" width="800"/>
+</p>
+
+<b>Run</b> button is clicked.
+
+<p align="center">
+<img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/5f900aee-5177-452b-9bba-9797ef28a8c4" width="800"/>
+</p>
+
+All input values are entered with a separator character between them.
+
+-Age &nbsp;  : &nbsp; 52 <br/>
+-Sex &nbsp; : &nbsp; 1 (Male)<br/>
+-Bmi &nbsp; : &nbsp; 42947<br/>
+-Children &nbsp; : &nbsp; 2<br/>
+-Smooker &nbsp; : &nbsp; -1 (He doesn't smoke)<br/>
+-Region	&nbsp; : &nbsp; 1 (Northwest)<br/>
+
+
+<p align="center">
+<img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/40623420-8770-4606-bc38-8d9f4321af9a" width="800"/>
+</p>
+
+-Output &nbsp;  : &nbsp; 4 (25K-35K)
+
+
+#### Attention
+Descriptions of the files in sample directory are below.
+
+- <b>insurance 			:</b>  The file that we created previously and where the properties and parameters of the artificial neural network are stored. This artificial neural network has not been trained yet.<br />
+
+- <b>insuranceEW			:</b> The file where the training records of the artificial neural network we created previously will be stored. This file is empty because the artificial neural network has not been trained yet.<br />
+
+- <b>insuranceTrained		:</b> This is the file where the state of the artificial neural network saved in the 'insurance' file is stored after 7225 epochs of training.<br />
+
+- <b>insuranceTrainedEW	:</b> It is the file where the training records of the artificial neural network are stored. Calculated at every epoch, it stores information such as total error values and numbers of updated weight.<br />
+
+- <b>Train				:</b> The training set file.<br />
+
+- <b>Test				:</b> The test set file.<br />
+
 
 
 
