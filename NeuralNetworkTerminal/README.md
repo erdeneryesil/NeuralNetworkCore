@@ -61,7 +61,7 @@ There are 2 options at the "OPEN OR CREATE A NEURALNETWORK" stage.<br /><br />
 0 - Open a neural network<br />
 1 - Create a new neural network<br /><br />
 1 must be entered to create a new neural network.<br /><br />
-The properties of the artificial neural network need to be determined step by step.
+The features of the artificial neural network need to be determined step by step.
 
 ### Step 2 : NUMBER OF INPUT DATA
 <p align="center">
@@ -98,7 +98,7 @@ The min and max range of the input values must be entered.<br /><br />
 <p align="center">
 <img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/08b68f87-e5d7-48a8-8cca-5cceb78ec6f9" width="800"/>
 </p>
-Number of hidden layers.<br /><br />
+The number of hidden layers.<br /><br />
 -Let the number of hidden layers be set to 2. 
 
 ### Step 6 : CELL NUMBERS OF HIDDEN LAYERS
