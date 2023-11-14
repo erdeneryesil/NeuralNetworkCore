@@ -65,10 +65,14 @@ Step 4 : File and training parameters are determined.
 <img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/a05749b2-6320-4139-9ba7-78d973469006" width="800"/>
 </p>
 
-The features that need to be determined in the Input Layer window:
--The number of real-world data that will be passed to the input layer of the artificial neural network.
--Real-world input data passed to the artificial neural network must be converted to ‘ANN data types' before it can be processed by the neural network.
--The min and max range of the input values.
+The features that need to be determined in the Input Layer window:<br/>
+-The number of real-world data that will be passed to the input layer of the artificial neural network.<br/>
+-Real-world input data passed to the artificial neural network must be converted to ‘ANN data types' before it can be processed by the neural network.<br/>
+-The min and max range of the input values.<br/><br/>
+
+Let's design the input layer for our example:<br/>
+-The number of inputs : 6
+
 
 
 
