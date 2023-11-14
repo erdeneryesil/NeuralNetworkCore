@@ -66,9 +66,9 @@ Step 4 : File and training parameters are determined.
 </p>
 
 The features that need to be determined in the Input Layer window:
-- The number of real-world data that will be passed to the input layer of the artificial neural network.
-- Real-world input data passed to the artificial neural network must be converted to ‘ANN data types' before it can be processed by the neural network.
-- The min and max range of the input values.
+-The number of real-world data that will be passed to the input layer of the artificial neural network.
+-Real-world input data passed to the artificial neural network must be converted to ‘ANN data types' before it can be processed by the neural network.
+-The min and max range of the input values.
 
 
 
