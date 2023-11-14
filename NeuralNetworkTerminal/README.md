@@ -278,7 +278,7 @@ The artificial neural network can be tested by entering 1 in <b>Operation</b> me
 <p align="center">
 <img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/a2dff670-09a6-4160-9572-b622fc63d3fa" width="800"/>
 </p>
-  - First, let's enter the location of the Test file. Next, let's enter the value 400 since all samples are wanted to be used.<br />
+  - First, let's enter the location of <b>Test</b> file. Next, let's enter the value 400 since all samples are wanted to be used.<br />
   
 <p align="center">
 <img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/906bca03-98c6-4f6e-bd3f-08665ac6b835" width="800"/>
@@ -315,7 +315,7 @@ Output	: 4 (25K-35K)
 <p align="center">
 <img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/2ec32ff8-4336-4bdb-a33b-e12ba17bcb24" width="800"/>
 </p>
-The features of the artificial neural network can be listed by entering 3 from the <b>Operation</b> menu.<br /><br />
+The features of the artificial neural network can be listed by entering 3 from <b>Operation</b> menu.<br /><br />
 -  Let’s enter 3.<br />
 
 <p align="center">
