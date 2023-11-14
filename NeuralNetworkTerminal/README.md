@@ -324,7 +324,7 @@ The features of the artificial neural network can be listed by entering 3 from t
 
 # Attention
 The files related to that example problem have been moved to  <a href="https://github.com/erdeneryesil/NeuralNetworkCore/tree/master/NeuralNetworkTerminal/sample">sample</a> directory, you can obtain them from there. You should take this into consideration when specifying the location of the artificial neural network file. 
-Descriptions of the files in href="https://github.com/erdeneryesil/NeuralNetworkCore/tree/master/NeuralNetworkTerminal/sample">sample</a> directory are below.<br /><br />
+Descriptions of the files in <a href="https://github.com/erdeneryesil/NeuralNetworkCore/tree/master/NeuralNetworkTerminal/sample">sample</a> directory are below.<br /><br />
 
 - <b>insurance 			:</b>  The file that we created previously and where the properties and parameters of the artificial neural network are stored. This artificial neural network has not been trained yet.<br />
 
