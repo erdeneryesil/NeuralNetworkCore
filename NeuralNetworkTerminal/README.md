@@ -166,7 +166,7 @@ The min and max range of the output value must be entered.<br /><br />
 <p align="center">
 <img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/c11fa782-ec43-453f-a6c1-6dc27b943c6e" width="800"/>
 </p>
-Tolerances of the output cells must be entered. When training our network, what is the acceptable margin of error regarding the expected outputs from the output cells? Each output cell will produce a value between 0 and 1. Therefore, we must take this into consideration when determining the tolerance.<br /><br />
+The tolerance values of the output cells must be entered. When training our network, what is the acceptable margin of error regarding the expected outputs from the output cells? Each output cell will produce a value between 0 and 1. Therefore, we must take this into consideration when determining the tolerance.<br /><br />
 - Let the tolerance value be 0.1.
 
 ### Step 15 : TRAININGS SETTINGS
