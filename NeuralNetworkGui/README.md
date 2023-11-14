@@ -52,12 +52,11 @@ The dataset contains 7 fields. The first 6 of these will be our input data, and 
 <img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/552a6965-a114-4176-852e-7d56beab6b05" width="800"/>
 </p>
 
-<b>New</b> button is clicked and the artifical neural network to be created is designed step by step.
-
-Step 1 : The features of the input layer are determined.
-Step 2 : The features of the hidden layers are determined.
-Step 3 : The features of the output layer are determined.
-Step 4 : File and training parameters are determined.
+<b>New</b> button is clicked and the artifical neural network to be created is designed step by step.<br/><br/>
+Step 1 : The features of the input layer are determined.<br/>
+Step 2 : The features of the hidden layers are determined.<br/>
+Step 3 : The features of the output layer are determined.<br/>
+Step 4 : File and training parameters are determined.<br/>
 
 ### Step 1: Input Layer
 
@@ -73,20 +72,166 @@ The features that need to be determined in the <b>Input Layer</b> window:<br/><b
 Let's design the input layer for our example:<br/><br/>
 -The number of inputs : 6<br/>
 -'ANN data types' into which real-world input data will be converted.<br/>
- 	- Age -> Binary<br/>
- 	- Sex -> Native<br/>
- 	- Bmi -> Narrowed<br/>
- 	- Children -> Binary<br/>
- 	- Smooker -> Binary<br/>
-	- Region -> Flag<br/>
+ 	&nbsp; &nbsp;&nbsp; &nbsp;-Age -> Binary<br/>
+ 	&nbsp; &nbsp;&nbsp; &nbsp;-Sex -> Native<br/>
+ 	&nbsp; &nbsp;&nbsp; &nbsp;-Bmi -> Narrowed<br/>
+ 	&nbsp; &nbsp;&nbsp; &nbsp;-Children -> Binary<br/>
+ 	&nbsp; &nbsp;&nbsp; &nbsp;-Smooker -> Binary<br/>
+	&nbsp; &nbsp;&nbsp; &nbsp;-Region -> Flag<br/>
+-The min and max range of the input values:<br/>
+	&nbsp; &nbsp;&nbsp; &nbsp;-Age : min=18, max=64<br/>
+	&nbsp; &nbsp;&nbsp; &nbsp;-Sex : Sex was converted to Native. That's why Min= 0, Max=1<br/>
+	&nbsp; &nbsp;&nbsp; &nbsp;-Bmi : Min=15960, Max=53130 <br/>
+	&nbsp; &nbsp;&nbsp; &nbsp;-Children : Min=0, Max=5<br/>
+	&nbsp; &nbsp;&nbsp; &nbsp;-Smoker: Min = -1 Max=1 <br/>
+	&nbsp; &nbsp;&nbsp; &nbsp;-Region: Min= -2, Max=+2<br/><br/>
 
 
+### Step 2: Hidden Layers
+
+<p align="center">
+<img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/426fdabd-e26b-4530-9fd0-7f45423e7b9a" width="800"/>
+</p>
+The features that need to be determined in the <b>Hidden Layers</b> window:<br/><br/>
+-The number of hidden layers
+-The number of cells each hidden layer has
+-The summation function of each hidden layer
+-The activation function of each hidden layer
+
+Let's design the hidden layers for our example:<br/><br/>
+-The number of hidden layers : 2<br/>
+-First hidden layer:<br/>
+	&nbsp; &nbsp;&nbsp; &nbsp;-The number of cells : 22<br/>
+	&nbsp; &nbsp;&nbsp; &nbsp;-The summation Function : Weighted Total<br/>
+	&nbsp; &nbsp;&nbsp; &nbsp;-The activation Function : TanH<br/>
+-Second hidden layer:<br/>
+	&nbsp; &nbsp;&nbsp; &nbsp;-The number of cells : 18<br/>
+	&nbsp; &nbsp;&nbsp; &nbsp;-The summation Function : Weighted Total<br/>
+	&nbsp; &nbsp;&nbsp; &nbsp;-The activation Function : Sigmoid<br/><br/>
+
+ ### Step 3: Output Layer
+
+<p align="center">
+<img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/8df42eb1-b6f7-45ac-82b1-5dd71ad159a8" width="800"/>
+</p>
+
+The features that need to be determined in the <b>Output Layer</b> window:<br/><br/>
+-The number of real world output data. (The artificial neural network can contain more than 1 output data ) <br/>
+-The summation function of the output layer<br/>
+-The activation function of the output layer<br/>
+-Just like inputs, output data needs to be converted into 'ANN data types' that the artificial neural network can process.<br/>
+-The min and max range of the output values.<br/>
+-The tolerance values of the output cells. When training our network, what is the acceptable margin of error regarding the expected outputs from the output cells? Each output cell will produce a value between 0 and 1. Therefore, we must take this into consideration when determining the tolerance.<br/><br/>
+
+Let's design the output layer for our example:<br/><br/>
+
+-The number of outputs : 1<br/>
+-The summation function: Weighted Total<br/>
+-The activation function : Sigmoid<br/>
+-'ANN data type' into which real-world output data will be converted. <br/>
+&nbsp; &nbsp;&nbsp; &nbsp;-Charges -> Flag<br/>
+-The min and max range of the output value:  0 – 6<br/>
+-The tolerance value : 0.1<br/>
+
+### Step 4: Training And File Settings
+
+<p align="center">
+<img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/9b8703a4-66a1-4603-9df5-4367213ec66d" width="800"/>
+</p>
+
+The features that need to be determined in the <b>Training and File Settings</b> window:<br/><br/>
+
+-Training features:<br/>
+&nbsp; &nbsp;&nbsp; &nbsp;-The lambda value<br/>
+&nbsp; &nbsp;&nbsp; &nbsp;-The alfa value<br/>
+&nbsp; &nbsp;&nbsp; &nbsp;-‘Random weight min’ ve ‘Random weight  max’Y : When the artificial neural network is first created, the weight value of each cell's connections is determined randomly. The min and max range of that random values needs to be specified.<br/>
+-File features:<br/>
+&nbsp; &nbsp;&nbsp; &nbsp;-All data related to the artificial neural network is stored in files, and when sorting the data in the files, a character must be placed between them.<br/>
+&nbsp; &nbsp;&nbsp; &nbsp;-The location where the files to be created will be stored.<br/>
+&nbsp; &nbsp;&nbsp; &nbsp;-The names of the files in which the features of the artificial neural network are stored need to be determined.<br/><br/>
+
+Let’s define training and file parameters:<br/><br/>
+-Lambda = 0.015<br/>
+-Alfa = 0.15 <br/>
+-Random weight min =-1, Random weight  max=+1 <br/>
+-Separator Character :  Semicolon (;)<br/>
+-Location :  'sample' directory (it is located within the source files of the project)<br/>
+-File name : ‘insurance’<br/>
+
+<p align="center">
+<img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/982d60f4-7c11-4ae5-8bea-deb5e0775032" width="400"/>
+</p>
+
+Two files were created named <b>insurance</b> and <b>insuranceEW</b> in sample directory.
+
+<b>insurance</b> file stores the properties and parameters of the artificial neural network.
+<b>insuranceEW</b> file will store the training records of the artificial neural network.
+
+<p align="center">
+<img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/583b499f-7642-4d3c-ab2d-603576d5b061" width="800"/>
+</p>
+When the artificial neural network was created, a shape symbolizing the architecture of the artificial neural network was drawn on the right side of our application. On the left, it can be seen that all the features of the artificial neural network are listed under headings.
+
+## Opening an Existing Neural Network
+
+<p align="center">
+<img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/cc351675-3ead-4e20-af1b-e035b2583748" width="800"/>
+</p>
+
+<b>Open</b> button is clicked.
+
+<p align="center">
+<img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/68e8b154-262c-42b7-b4cb-f7120f03a972" width="800"/>
+</p>
+
+The features that need to be determined in <b>Neural Network File</b> window:<br/><br/>
+-The separator character used in existing artificial neural network files.<br/>
+-The location of the saved artificial neural network file.<br/>
+
+## Editing the Artificial Neural Network
+
+<p align="center">
+<img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/f06313bd-3e8c-44a0-baab-c39d3ed22005" width="800"/>
+</p>
+
+<b>Edit</b> button is clicked and the the artificial neural network is edited step by step.<br/><br/>
+Step 1 : The features of the input layer are viewed.<br/>
+Step 2 : Some features of the hidden layers can be edited, the others can only be viewed.<br/>
+Step 3 : Some features of the output layer can be edited, the others can only be viewed.<br/>
+Step 4 : Training features can be edited but file features can only be viewed.<br/>
 
 
+### Step 1 : Input Layer
 
+<p align="center">
+<img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/6daa1153-3243-4f54-a01e-ca5076763e6a" width="800"/>
+</p>
 
+Since the input layer of an existing artificial neural network cannot be edited, only the features of the input layer are viewed in <b>Input Layer</b> window.
 
+### Step 2 : Hidden Layers
 
+<p align="center">
+<img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/d165e4b7-59a6-471a-baf4-1f8efa0996be" width="800"/>
+</p>
+
+The cell numbers of the hidden layers of an existing artificial neural network cannot be changed. However, the summation and the activation functions can be edited.
+
+### Step 3 : Output Layer
+
+<p align="center">
+<img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/2fb1aba3-6cab-48ca-9cb4-b25cddb07161" width="800"/>
+</p>
+
+The summation function, the activation function and the tolerance values of the output layer of an existing artificial neural network can be edited. The other features cannot be updated and can only be viewed.
+
+### Step 4 : Training and File Settings
+
+<p align="center">
+<img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/e6c0366a-7648-4dd5-9c09-cedca4b6dce2" width="800"/>
+</p>
+
+The lambda and the alpha values of an existing artificial neural network can be updated. The separator character and file name cannot be edited.
 
 
 
