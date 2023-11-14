@@ -119,7 +119,7 @@ The summation functions of the hidden layers must be entered.<br /><br />
 <p align="center">
 <img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/3af89375-0015-41a2-9169-84ff04e6e905" width="800"/>
 </p>
-The activationfunctions of the hidden layers must be entered.<br /><br />
+The activation functions of the hidden layers must be entered.<br /><br />
 - Let the activation function of the first hidden layer be TanH, let's enter 1.<br />
 - Let the activation function of the second hidden layer be Sigmoid, let's enter 0.
 
@@ -127,7 +127,7 @@ The activationfunctions of the hidden layers must be entered.<br /><br />
 <p align="center">
 <img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/dc5e11fc-cc7a-4f1a-b3ca-0cee5fe878e0" width="800"/>
 </p>
-Number of output data must be entered.<br /><br />
+The number of output data must be entered.<br /><br />
 - In the example problem, 1 should be entered since only the medical expense amount will be used as the output.
 
 ### Step 10 : TYPES OF OUTPUT DATA
@@ -198,8 +198,8 @@ The names of the files in which the features of the artificial neural network ar
 
 Two files were created named 'insurance' and 'insuranceEW'.<br />
 
-<b>'insurance'</b> file stores the properties and parameters of the artificial neural network.<br />
-<b>'insuranceEW'</b> file will store the training records of the artificial neural network.
+<b>insurance</b> file stores the properties and parameters of the artificial neural network.<br />
+<b>insuranceEW</b> file will store the training records of the artificial neural network.
 
 
 ## Opening an Existing Neural Network
@@ -221,7 +221,7 @@ The separator character used in existing artificial neural network files. <br />
 <p align="center">
 <img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/1e35ee28-ff1d-4cbd-84bb-8a5129e4bfe5" width="800"/>
 </p>
-Location of the saved artificial neural network file.<br /><br />
+The location of the saved artificial neural network file.<br /><br />
 - Since our artificial neural network file is located where the source files of the project are located, we just need to write the name of the file. 
 
 
