@@ -578,7 +578,7 @@ void FormMain::slotRunParameters(int * const inputs){
 
     this->_runInputInfo.append("Inputs:\n");
     for(size_t i=0;i<FormMain::NeuralNetworkObject()->getInputLayerPattern()->getCountOriginal();i++){
-        this->_runInputInfo.append(QString::number(inputs[i])+"  ");
+        this->_runInputInfo.append(QString::number(inputs[i])+" ");
         if((i+1)%IMAGE_WIDTH==0){this->_runInputInfo.append("\n");}
     }
 
@@ -1046,9 +1046,9 @@ void FormMain::showTestInfoSample(const int& indexSample,const size_t& indexOutp
     this->_countErrorOfTest++;
 
     if(this->_countErrorOfTest<COUNT_ERROR_OF_TEST_TO_SHOW_MAX){
-        QString info="Sample Index\t\t: "+QString::number(indexSample);
+        QString info="Sample Index\t: "+QString::number(indexSample);
 
-        info.append("\nOutput Index\t\t: "+QString::number(indexOutput));
+        info.append("\nOutput Index\t: "+QString::number(indexOutput));
         Data::Type outputType=FormMain::NeuralNetworkObject()->getOutputLayerPattern()->getType(indexOutput);
         if(outputType==Data::Type::Narrowed || outputType==Data::Type::Native)
             info.append("\nOutput(rounded)\t: "+QString::number(std::round(output)));
@@ -1068,12 +1068,12 @@ void FormMain::showTestInfoSample(const int& indexSample,const size_t& indexOutp
     }
 }
 void FormMain::showTestInfoResult(const int& countError,const int& countAllOutput,const double& result){
-    QString info="Success Rate\t\t\t\t: "+QString::number(result*100)+"%";
-    info.append("\nNumber of failed outputs\t\t\t: "+QString::number(countError));
+    QString info="Success Rate\t\t\t: "+QString::number(result*100)+"%";
+    info.append("\nNumber of failed outputs\t\t: "+QString::number(countError));
     info.append("\nNumber of successful outputs\t\t: "+QString::number(countAllOutput-countError));
-    info.append("\nTotal number of outputs\t\t\t: "+QString::number(countAllOutput));
+    info.append("\nTotal number of outputs\t\t: "+QString::number(countAllOutput));
     info.append("\nNumber of samples\t\t\t: "+QString::number(FormMain::NeuralNetworkObject()->getCountSample()));
-    info.append("\nNumber of outputs of the Neural Network\t\t: "+QString::number(FormMain::NeuralNetworkObject()->getOutputLayerPattern()->getCountOriginal()));
+    info.append("\nNumber of outputs of the Neural Network\t: "+QString::number(FormMain::NeuralNetworkObject()->getOutputLayerPattern()->getCountOriginal()));
     info.append("\n-----------------------------------------------------------------------------------\n");
 
     info.append(this->_testInfo);
