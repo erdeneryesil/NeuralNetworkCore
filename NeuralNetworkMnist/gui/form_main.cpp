@@ -1068,13 +1068,12 @@ void FormMain::showTestInfoSample(const int& indexSample,const size_t& indexOutp
     }
 }
 void FormMain::showTestInfoResult(const int& countError,const int& countAllOutput,const double& result){
-    QString info="Success Rate\t\t\t: "+QString::number(result*100)+"%";
-    info.append("\nNumber of failed outputs\t\t: "+QString::number(countError));
-    info.append("\nNumber of successful outputs\t\t: "+QString::number(countAllOutput-countError));
-    info.append("\nTotal number of outputs\t\t: "+QString::number(countAllOutput));
-    info.append("\nNumber of samples\t\t\t: "+QString::number(FormMain::NeuralNetworkObject()->getCountSample()));
-    info.append("\nNumber of outputs of the Neural Network\t: "+QString::number(FormMain::NeuralNetworkObject()->getOutputLayerPattern()->getCountOriginal()));
-    info.append("\n-----------------------------------------------------------------------------------\n");
+    QString info="Success Rate\t\t: "+QString::number(result*100)+"%";
+    info.append("\nNumber of failed outputs\t: "+QString::number(countError));
+    info.append("\nNumber of successful outputs\t: "+QString::number(countAllOutput-countError));
+    info.append("\nTotal number of outputs\t: "+QString::number(countAllOutput));
+    info.append("\nNumber of samples\t\t: "+QString::number(FormMain::NeuralNetworkObject()->getCountSample()));
+    info.append("\n--------------------------------------------------------------------------------\n");
 
     info.append(this->_testInfo);
     emit signalTextEditInformationSetText(info);
