@@ -270,7 +270,7 @@ The lambda and the alpha values of an existing artificial neural network can be 
 
 Let's put the training and test set files(<b>testMnist</b>, <b>trainMnist</b>) in <b>sample</b> directory, just like <b>nn0</b> and <b>nn0EW</b> files.
 
-How the <b>testMNIST</b> and <b>trainMNIST</b> files were created was explained in the MNIST loader(##) (link ekle) topic.
+How the <b>testMNIST</b> and <b>trainMNIST</b> files were created was explained in the <a href="https://github.com/erdeneryesil/NeuralNetworkCore/blob/master/NeuralNetworkMnist/README.md#mnist-loader">MNIST loader</a> topic.
 
 
 
