@@ -211,13 +211,13 @@ The features that need to be determined in <b>Neural Network File</b> window:<br
 -The location of the saved artificial neural network file.<br/>
 
 
-## Editing the Artificial Neural Network
+## Editing The Artificial Neural Network
 
 <p align="center">
 <img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/79cee377-e113-4779-aade-a9d190104ea3" width="800"/>
 </p>
 
-Button <b>Edit</b> is clicked and the the artificial neural network is edited step by step.<br/>
+Button <b>Edit</b> is clicked and the artificial neural network is edited step by step.<br/>
 Step 1 : The features of the input layer are viewed.<br/>
 Step 2 : Some features of the hidden layers can be edited, the others can only be viewed.<br/>
 Step 3 : Some features of the output layer can be edited, the others can only be viewed.<br/>
@@ -256,7 +256,7 @@ The summation function, the activation function and the tolerance values of the 
 
 The lambda and the alpha values of an existing artificial neural network can be updated. The separator character and file name cannot be edited.
 
-## Training the Artificial Neural Network
+## Training The Artificial Neural Network
 
 <p align="center">
 <img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/938993b9-b9da-48d0-84a6-cc886873a0e7" width="800"/>
@@ -306,7 +306,7 @@ In this example scenario, the training of the artificial neural network is termi
 <img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/a6bbc7ea-7ed1-49d3-92ec-07d7b016128f" width="800"/>
 </p>
 
-By checking the <b>Show Graph</b>, the total error value and the number of updated weights can be displayed on the graph.
+By checking check box <b>Show Graph</b>, the total error value and the number of updated weights can be displayed on the graph.
 
 <p align="center">
 <img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/10ca5e00-268a-41db-bd3b-53cccbdea888" width="800"/>
@@ -322,7 +322,7 @@ The blue dots represent the numbers of updated weights, and the red dots represe
 
 Button <b>Test</b> is clicked.
 
-Normally, an artificial neural network is tested using test set samples, but let's first test with the training set samples to see how well the artificial neural network can learn the samples in the training set. Then, let's perform the testing using the test set examples.
+Normally, an artificial neural network is tested using test set samples, but let's first test with the training set samples to see how well the artificial neural network can learn the samples in the training set. Then, let's perform the testing using the test set samples.
 
 ### Testing With Training Set (trainMnist)
 
@@ -366,7 +366,7 @@ The testing process is restarted by pressing buttons <b>Load Images</b> and <b>O
 
 Testing is completed. It failed to predict 390 out of 10000 samples. Success rate is 96.1%. 
 
-## Running the Artificial Neural Network
+## Running The Artificial Neural Network
 
 <p align="center">
 <img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/b496db27-cd87-4a89-9e82-7c9da6f4a453" width="800"/>
