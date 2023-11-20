@@ -283,7 +283,7 @@ The artificial neural network can be tested by entering 1 in <b>Operation</b> me
 <p align="center">
 <img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/906bca03-98c6-4f6e-bd3f-08665ac6b835" width="800"/>
 </p>
-Testing is completed. It failed to predict 38 out of 400 examples. Success rate is 90.5%
+Testing is completed. It failed to predict 38 out of 400 samples. Success rate is 90.5%
 
 ## Running The Artificial Neural Network
 <p align="center">
