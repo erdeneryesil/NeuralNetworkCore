@@ -1,4 +1,4 @@
-![22](https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/fb5b25d5-bbd5-4b80-817e-9c8ea28d4fa1)# NeuralNetworkMnist
+# NeuralNetworkMnist
 
 <p align="center">
 <img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/8763af07-52a9-491d-b3aa-1f761be65078" width="800"/>
