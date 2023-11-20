@@ -58,7 +58,7 @@ The files in the <a href="http://yann.lecun.com/exdb/mnist/">MNIST database</a> 
 <img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/08706771-f9f6-450e-abe8-26a65468ffa4" width="800"/>
 </p>
 
-<b>New</b> button is clicked and the artifical neural network to be created is designed step by step.<br/>
+Button <b>New</b> is clicked and the artifical neural network to be created is designed step by step.<br/>
 Step 1 : The features of the input layer are determined.<br/>
 Step 2 : The features of the hidden layers are determined.<br/>
 Step 3 : The features of the output layer are determined.<br/>
@@ -200,7 +200,7 @@ When the artificial neural network was created, a shape symbolizing the architec
 <img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/a28206bf-b105-42c7-862f-ae6d1037f15e" width="800"/>
 </p>
 
-<b>Open</b> button is clicked.
+Button <b>Open</b> is clicked.
 
 <p align="center">
 <img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/73185547-b966-489e-a74d-88f34c361547" width="800"/>
@@ -217,7 +217,7 @@ The features that need to be determined in <b>Neural Network File</b> window:<br
 <img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/79cee377-e113-4779-aade-a9d190104ea3" width="800"/>
 </p>
 
-<b>Edit</b> button is clicked and the the artificial neural network is edited step by step.<br/>
+Button <b>Edit</b> is clicked and the the artificial neural network is edited step by step.<br/>
 Step 1 : The features of the input layer are viewed.<br/>
 Step 2 : Some features of the hidden layers can be edited, the others can only be viewed.<br/>
 Step 3 : Some features of the output layer can be edited, the others can only be viewed.<br/>
@@ -262,7 +262,7 @@ The lambda and the alpha values of an existing artificial neural network can be 
 <img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/938993b9-b9da-48d0-84a6-cc886873a0e7" width="800"/>
 </p>
 
-<b>Train</b> button is clicked.
+Button <b>Train</b> is clicked.
 
 <p align="center">
 <img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/76dbac67-6f14-4f02-923b-1a9b15bf91e5" width="800"/>
@@ -276,13 +276,13 @@ How files <b>testMNIST</b> and <b>trainMNIST</b> were created was explained in t
 <img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/76cd708f-010d-49ac-95bb-aa9c47709d36" width="800"/>
 </p>
 
-Let's enter the location of file <b>trainMnist</b>, which contains the samples we will use to train our network, and the number 60000 since we want to use all the samples in this file. Then, let's click <b>Load Images</b> button so that the examples in the training set are loaded as images.
+Let's enter the location of file <b>trainMnist</b>, which contains the samples we will use to train our network, and the number 60000 since we want to use all the samples in this file. Then, let's click button <b>Load Images</b> so that the examples in the training set are loaded as images.
 
 <p align="center">
 <img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/c0f01545-dfcd-46a4-82ab-5158c91306d7" width="800"/>
 </p>
 
-When the examples in file <b>trainMnsit</b> are loaded as images, images of each number can be viewed. After the samples are loaded as images, training is started by pressing the <b>OK</b> button.
+When the examples in file <b>trainMnsit</b> are loaded as images, images of each number can be viewed. After the samples are loaded as images, training is started by pressing button <b>OK</b>.
 
 <p align="center">
 <img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/64c5cf0c-6016-44ac-82d0-ff908803eb6a" width="800"/>
@@ -294,13 +294,13 @@ The artificial neural network will start training. Epoch, total error value and 
 <img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/e1110a42-12c6-4036-8259-a7bd41ddb863" width="800"/>
 </p>
 
-As soon as the training starts, the text on the <b>Train</b> button changes to <b>'Stop Training'</b>. To stop the training, it is necessary to press the same button again.
+As soon as the training starts, the text on button <b>Train</b> changes to <b>'Stop Training'</b>. To stop the training, it is necessary to press the same button again.
 
 <p align="center">
 <img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/c21c7c46-8d21-4966-b994-eb4e47694186" width="800"/>
 </p>
 
-In this example scenario, the training of the artificial neural network is terminated by the user by clicking <b>Stop Training</b> button when the 288th epoch value is reached.
+In this example scenario, the training of the artificial neural network is terminated by the user by clicking button <b>Stop Training</b> when the 288th epoch value is reached.
 
 <p align="center">
 <img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/a6bbc7ea-7ed1-49d3-92ec-07d7b016128f" width="800"/>
@@ -320,7 +320,7 @@ The blue dots represent the numbers of updated weights, and the red dots represe
 <img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/b67cf48b-72d2-4b41-86c6-7704c5c273ee" width="800"/>
 </p>
 
-<b>Test</b> button is clicked.
+Button <b>Test</b> is clicked.
 
 Normally, an artificial neural network is tested using test set samples, but let's first test with the training set samples to see how well the artificial neural network can learn the samples in the training set. Then, let's perform the testing using the test set examples.
 
@@ -336,7 +336,7 @@ Let's enter the location of file <b>trainMnist</b>, which contains the samples w
 <img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/ab01b1e2-138e-4399-b39d-833dc1f06fc9" width="800"/>
 </p>
 
-By clicking on <b>Load Images</b> button, the samples are loaded as images and then the testing process is started by clicking on <b>OK</b> button.
+By clicking on button <b>Load Images</b>, the samples are loaded as images and then the testing process is started by clicking on button <b>OK</b>.
 
 <p align="center">
 <img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/897e3885-2415-4a90-9e67-c25a56deef6c" width="800"/>
@@ -358,7 +358,7 @@ Let's enter the location of file <b>testMnist</b> and the number 10000 since we 
 <img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/cbe23bda-dabc-46a1-8fa0-a36890f99c7c" width="800"/>
 </p>
 
-The testing process is restarted by pressing the <b>Load Images</b> and <b>OK</b> buttons respectively.
+The testing process is restarted by pressing buttons <b>Load Images</b> and <b>OK</b> respectively.
 
 <p align="center">
 <img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/e419b3f9-1dbf-4617-aac3-870c1a0d0b58" width="800"/>
@@ -372,7 +372,7 @@ Testing is completed. It failed to predict 390 out of 10000 samples. Success rat
 <img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/b496db27-cd87-4a89-9e82-7c9da6f4a453" width="800"/>
 </p>
 
-<b>Run</b> button is clicked.
+Button <b>Run</b> is clicked.
 
 <p align="center">
 <img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/bb50b2aa-d604-4705-acb9-e040303b42f4" width="800"/>
@@ -384,7 +384,7 @@ The window that contains a drawing area will open.
 <img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/92331273-62a4-4487-b861-b7e4cb3939f6" width="800"/>
 </p>
 
-Draw a number in the drawing area using the mouse and click the <b>OK</b> button.
+Draw a number in the drawing area using the mouse and click button <b>OK</b>.
 
 <p align="center">
 <img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/8f51034d-60cf-4519-bb01-1404810b70d3" width="800"/>
