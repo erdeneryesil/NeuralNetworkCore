@@ -25,4 +25,23 @@ Each of these images is the same size. It is 28x28 pixels in size and therefore 
 <p align="center">
 <img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/e3f8ba2d-c1fd-450f-aa80-e1092b21263d" width="600"/>
 </p>
-In the Mnist database, there is not only these images but also a label data about which digit each image represents.
+In the Mnist database, there is not only these images but also a label data about which digit each image represents. <br/><br/>
+
+
+<a href="http://yann.lecun.com/exdb/mnist/">
+<p align="center">
+<img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/30946c9c-9949-40ce-83a2-1669d559e5f7" width="600"/>
+</p>
+</a>
+
+The MNIST database can be accessed at http://yann.lecun.com/exdb/mnist/
+
+The files included in the MNIST database are listed below.
+
+<b>-training set images (train-images-idx3-ubyte.gz) :</b> This file contains 60000 images to be used for training. <br/>
+<b>-training set labels (train-labels-idx1-ubyte.gz):</b> This file contains label data indicating which number each of the images to be used for training represents.<br/>
+<b>-test set images (t10k-images-idx3-ubyte.gz) :</b> This file contains 10000 images to be used for testing. <br/>
+<b>-test set labels (t10k-labels-idx1-ubyte.gz):</b> This file contains label data indicating which number each of the images to be used for testing represents.<br/>
+
+## MNIST loader
+The contents of the 4 files in the Mnist database are not directly accessible and readable. In other words, it is not possible to read the content by opening it with an application such as notepad. However, these contents need to be handled and processed by NeuralNetworkMnist. <a href="https://github.com/arpaka/mnist-loader ">MNIST loader</a> project was used to achieve this transformation.
