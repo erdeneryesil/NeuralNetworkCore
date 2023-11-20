@@ -93,10 +93,10 @@ Let's design the input layer for our example:<br/><br/>
 <img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/426fdabd-e26b-4530-9fd0-7f45423e7b9a" width="800"/>
 </p>
 The features that need to be determined in the <b>Hidden Layers</b> window:<br/><br/>
--The number of hidden layers
--The number of cells each hidden layer has
--The summation function of each hidden layer
--The activation function of each hidden layer
+-The number of hidden layers <br/>
+-The number of cells each hidden layer has<br/>
+-The summation function of each hidden layer<br/>
+-The activation function of each hidden layer<br/>
 
 Let's design the hidden layers for our example:<br/><br/>
 -The number of hidden layers : 2<br/>
