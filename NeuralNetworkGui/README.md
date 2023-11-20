@@ -309,7 +309,7 @@ Let's enter the location of <b>Test</b> file, which contains the samples we will
 <img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/9ad1e98f-5c44-4268-a4d2-405f40383ff2" width="800"/>
 </p>
 
-Testing is completed. It failed to predict 38 out of 400 examples. Success rate is 90.5%
+Testing is completed. It failed to predict 38 out of 400 samples. Success rate is 90.5%
 
 
 ## Running the Artificial Neural Network
