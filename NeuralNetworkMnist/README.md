@@ -13,7 +13,7 @@ There is a menu on the left side of the application and an empty white area on t
 <p align="center">
 <img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/8a776959-a4cb-45f1-bf72-eda68467a896" width="600"/>
 </p>
-Mnist database is a dataset containing images of handwritten numbers. It contains tens of thousands of examples. There are a total of 70000 hand-written number images. 60000 of them are used for training and the remaining 10000 are used for testing. <br/><br/>
+Mnist database is a dataset containing images of handwritten numbers. It contains tens of thousands of samples. There are a total of 70000 hand-written number images. 60000 of them are used for training and the remaining 10000 are used for testing. <br/><br/>
 
 
 <p align="center">
@@ -276,13 +276,13 @@ How files <b>testMNIST</b> and <b>trainMNIST</b> were created was explained in t
 <img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/76cd708f-010d-49ac-95bb-aa9c47709d36" width="800"/>
 </p>
 
-Let's enter the location of file <b>trainMnist</b>, which contains the samples we will use to train our network, and the number 60000 since we want to use all the samples in this file. Then, let's click button <b>Load Images</b> so that the examples in the training set are loaded as images.
+Let's enter the location of file <b>trainMnist</b>, which contains the samples we will use to train our network, and the number 60000 since we want to use all the samples in this file. Then, let's click button <b>Load Images</b> so that the samples in the training set are loaded as images.
 
 <p align="center">
 <img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/c0f01545-dfcd-46a4-82ab-5158c91306d7" width="800"/>
 </p>
 
-When the examples in file <b>trainMnsit</b> are loaded as images, images of each number can be viewed. After the samples are loaded as images, training is started by pressing button <b>OK</b>.
+When the samples in file <b>trainMnsit</b> are loaded as images, images of each number can be viewed. After the samples are loaded as images, training is started by pressing button <b>OK</b>.
 
 <p align="center">
 <img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/64c5cf0c-6016-44ac-82d0-ff908803eb6a" width="800"/>
