@@ -182,7 +182,7 @@ When the artificial neural network was created, a shape symbolizing the architec
 <img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/68e8b154-262c-42b7-b4cb-f7120f03a972" width="800"/>
 </p>
 
-The features that need to be determined in <b>Neural Network File</b> window:<br/><br/>
+The features that need to be determined in <b>Neural Network File</b> window:<br/>
 -The separator character used in existing artificial neural network files.<br/>
 -The location of the saved artificial neural network file.<br/>
 
@@ -192,7 +192,7 @@ The features that need to be determined in <b>Neural Network File</b> window:<br
 <img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/f06313bd-3e8c-44a0-baab-c39d3ed22005" width="800"/>
 </p>
 
-<b>Edit</b> button is clicked and the the artificial neural network is edited step by step.<br/><br/>
+<b>Edit</b> button is clicked and the the artificial neural network is edited step by step.<br/>
 Step 1 : The features of the input layer are viewed.<br/>
 Step 2 : Some features of the hidden layers can be edited, the others can only be viewed.<br/>
 Step 3 : Some features of the output layer can be edited, the others can only be viewed.<br/>
