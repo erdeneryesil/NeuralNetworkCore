@@ -314,6 +314,110 @@ By checking the <b>Show Graph</b>, the total error value and the number of updat
 
 The blue dots represent the numbers of updated weights, and the red dots represent the total error values.
 
+## Testing The Artificial Neural Network
+
+<p align="center">
+<img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/b67cf48b-72d2-4b41-86c6-7704c5c273ee" width="800"/>
+</p>
+
+<b>Test</b> button is clicked.
+
+Normally, an artificial neural network is tested using test set samples, but let's first test with the training set samples to see how well the artificial neural network can learn the samples in the training set. Then, let's perform the testing using the test set examples.
+
+### Testing With Training Set (trainMnist)
+
+<p align="center">
+<img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/6bc0b015-98fb-4b85-9daf-dec5916e5367" width="800"/>
+</p>
+
+Let's enter the location of <b>trainMnist</b> file, which contains the samples we will use to test our artificial neural network, and the number 60000 since we want to use all the samples in this file.
+
+<p align="center">
+<img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/ab01b1e2-138e-4399-b39d-833dc1f06fc9" width="800"/>
+</p>
+
+By clicking on <b>Load Images</b> button, the samples are loaded as images and then the testing process is started by clicking on <b>OK</b> button.
+
+<p align="center">
+<img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/897e3885-2415-4a90-9e67-c25a56deef6c" width="800"/>
+</p>
+
+Testing is completed. It failed to predict 518 out of 60000 samples. Success rate is 99.1%. The success rate expresses how well the artificial neural network can learn the samples in the training set.
+
+### Testing With Test Set (testMnist)
+
+The real success of the artificial neural network will be revealed in the test performed with test set samples. For this reason, the artificial neural network should be tested using the samples in the <b>testMnist</b> file.
+
+<p align="center">
+<img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/ec6772df-2fb5-49ec-8046-78804b2b8d7f" width="800"/>
+</p>
+
+Let's enter the location of <b>testMnist</b> file and the number 10000 since we want to use all the samples in this file.
+
+<p align="center">
+<img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/cbe23bda-dabc-46a1-8fa0-a36890f99c7c" width="800"/>
+</p>
+
+The testing process is restarted by pressing the <b>Load Images</b> and <b>OK</b> buttons respectively.
+
+<p align="center">
+<img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/e419b3f9-1dbf-4617-aac3-870c1a0d0b58" width="800"/>
+</p>
+
+Testing is completed. It failed to predict 390 out of 10000 samples. Success rate is 96.1%. 
+
+## Running the Artificial Neural Network
+
+<p align="center">
+<img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/b496db27-cd87-4a89-9e82-7c9da6f4a453" width="800"/>
+</p>
+
+<b>Run</b> button is clicked.
+
+<p align="center">
+<img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/bb50b2aa-d604-4705-acb9-e040303b42f4" width="800"/>
+</p>
+
+The window that contains a drawing area will open.
+
+<p align="center">
+<img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/92331273-62a4-4487-b861-b7e4cb3939f6" width="800"/>
+</p>
+
+Draw a number in the drawing area using the mouse and click the <b>OK</b> button.
+
+<p align="center">
+<img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/8f51034d-60cf-4519-bb01-1404810b70d3" width="800"/>
+</p>
+
+The pixel values (0 or 1) of the drawing are passed as input to the artificial neural network and the output value is calculated. Input and output values are displayed.
+
+Output	: 2
+
+## Note
+
+Descriptions of the files in <a href="https://github.com/erdeneryesil/NeuralNetworkCore/tree/master/NeuralNetworkMnist/sample">sample</a> directory are below.
+
+- <b>nn0			:</b> The file that we created previously and where the properties and parameters of the artificial neural network are stored. This artificial neural network has not been trained yet.<br />
+
+- <b>nn0EW			:</b>The file where the training records of the artificial neural network we created previously will be stored. This file is empty because the artificial neural network has not been trained yet.<br />
+
+- <b>nn1		:</b> This is the file where the state of the artificial neural network saved in the 'nn0' file is stored after 288 epochs of training.<br />
+
+- <b>nn1EW	:</b> It is the file where the training records of the artificial neural network are stored. Calculated at every epoch, it stores information such as total error values and numbers of updated weight.<br />
+
+- <b>Train				:</b> The training set file.<br />
+
+- <b>Test				:</b> The test set file.<br />
+
+
+
+
+
+
+
+
+
 
 
 
