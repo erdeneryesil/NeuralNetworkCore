@@ -149,13 +149,67 @@ The features that need to be determined in the <b>Output Layer</b> window:<br/>
 -The tolerance values of the output cells. When training our network, what is the acceptable margin of error regarding the expected outputs from the output cells? Each output cell will produce a value between 0 and 1. Therefore, we must take this into consideration when determining the tolerance.<br/><br/>
 
 Let's design the output layer for our example:<br/>
-
 -The number of outputs : 1<br/>
 -The summation function: Weighted Total<br/>
 -The activation function : Sigmoid<br/>
 -'ANN data type' into which the digit data will be converted : Flag <br/>
 -The min and max range of the output value:  0 – 9<br/>
 -The tolerance value : 0.1<br/>
+
+### Step 4: Training And File Settings
+
+<p align="center">
+<img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/8641a76f-e04b-46ca-8c37-ecd56192f115" width="800"/>
+</p>
+
+The features that need to be determined in the <b>Training and File Settings</b> window:<br/>
+-Training features:<br/>
+&nbsp; &nbsp;&nbsp; &nbsp;-The lambda value<br/>
+&nbsp; &nbsp;&nbsp; &nbsp;-The alfa value<br/>
+&nbsp; &nbsp;&nbsp; &nbsp;-‘Random weight min’ ve ‘Random weight  max’Y : When the artificial neural network is first created, the weight value of each cell's connections is determined randomly. The min and max range of that random values needs to be specified.<br/>
+-File features:<br/>
+&nbsp; &nbsp;&nbsp; &nbsp;-All data related to the artificial neural network is stored in files, and when sorting the data in the files, a character must be placed between them.<br/>
+&nbsp; &nbsp;&nbsp; &nbsp;-The location where the files to be created will be stored.<br/>
+&nbsp; &nbsp;&nbsp; &nbsp;-The names of the files in which the features of the artificial neural network are stored need to be determined.<br/><br/>
+
+Let’s define training and file parameters:<br/>
+-Lambda = 0.04<br/>
+-Alfa = 0.08 <br/>
+-Random weight min =-1, Random weight  max=+1 <br/>
+-Separator Character :  Semicolon (;)<br/>
+-Location :  'sample' directory (it is located within the source files of the project)<br/>
+-File name : ‘nn0’ (‘0’ represents the untrained state of the artificial network. The trained artificial neural network will be named ‘nn1’)<br/>
+
+<p align="center">
+<img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/cca8a45e-cf82-47db-91d2-88b8b2d8c522" width="400"/>
+</p>
+
+Two files were created named <b>nn0</b> and <b>nn0EW</b> in sample directory.
+
+<b>nn0</b> file stores the properties and parameters of the artificial neural network.
+<b>nn0EW</b> file will store the training records of the artificial neural network.
+
+<p align="center">
+<img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/c50f6138-077a-4734-9d6e-fd44f1963856" width="800"/>
+</p>
+
+When the artificial neural network was created, a shape symbolizing the architecture of the artificial neural network was drawn on the right side of our application. On the left, it can be seen that all the features of the artificial neural network are listed under headings.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
