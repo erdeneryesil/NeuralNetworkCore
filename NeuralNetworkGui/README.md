@@ -124,7 +124,6 @@ The features that need to be determined in the <b>Output Layer</b> window:<br/>
 -The tolerance values of the output cells. When training our network, what is the acceptable margin of error regarding the expected outputs from the output cells? Each output cell will produce a value between 0 and 1. Therefore, we must take this into consideration when determining the tolerance.<br/><br/>
 
 Let's design the output layer for our example:<br/>
-
 -The number of outputs : 1<br/>
 -The summation function: Weighted Total<br/>
 -The activation function : Sigmoid<br/>
