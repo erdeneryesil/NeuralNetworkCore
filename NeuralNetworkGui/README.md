@@ -96,7 +96,7 @@ The features that need to be determined in the <b>Hidden Layers</b> window:<br/>
 -The number of hidden layers <br/>
 -The number of cells each hidden layer has<br/>
 -The summation function of each hidden layer<br/>
--The activation function of each hidden layer<br/>
+-The activation function of each hidden layer<br/><br/>
 
 Let's design the hidden layers for our example:<br/><br/>
 -The number of hidden layers : 2<br/>
