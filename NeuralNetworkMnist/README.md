@@ -58,7 +58,7 @@ The files in the <a href="http://yann.lecun.com/exdb/mnist/">MNIST database</a> 
 <img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/08706771-f9f6-450e-abe8-26a65468ffa4" width="800"/>
 </p>
 
-<b>New</b> button is clicked and the artifical neural network to be created is designed step by step.<br/><br/>
+<b>New</b> button is clicked and the artifical neural network to be created is designed step by step.<br/>
 Step 1 : The features of the input layer are determined.<br/>
 Step 2 : The features of the hidden layers are determined.<br/>
 Step 3 : The features of the output layer are determined.<br/>
@@ -72,7 +72,7 @@ Step 4 : File and training parameters are determined.<br/>
 </p>
 
 
-The features that need to be determined in the <b>Input Layer</b> window:<br/><br/>
+The features that need to be determined in the <b>Input Layer</b> window:<br/>
 -The number of real-world data that will be passed to the input layer of the artificial neural network.<br/>
 -Real-world input data passed to the artificial neural network must be converted to ‘ANN data types' before it can be processed by the neural network.<br/>
 -The min and max range of the input values.<br/><br/>
@@ -116,7 +116,7 @@ Since all input layer data was converted to <b>Native</b> type, min and max valu
 <img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/b8a6d7c5-e784-47f7-bf1d-5441e8dfe651" width="800"/>
 </p>
 
-The features that need to be determined in the <b>Hidden Layers</b> window:<br/><br/>
+The features that need to be determined in the <b>Hidden Layers</b> window:<br/>
 -The number of hidden layers<br/>
 -The number of cells each hidden layer has<br/>
 -The summation function of each hidden layer<br/>
@@ -139,7 +139,7 @@ Let's design the hidden layers for our example: <br/>
 <img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/d4e5aa49-d300-4ecc-a517-17b2f71f9beb" width="800"/>
 </p>
 
-The features that need to be determined in the <b>Output Layer</b> window:<br/><br/>
+The features that need to be determined in the <b>Output Layer</b> window:<br/>
 
 -The number of real world output data. (The artificial neural network can contain more than 1 output data ) <br/>
 -The summation function of the output layer<br/>
