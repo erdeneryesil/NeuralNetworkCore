@@ -48,8 +48,56 @@ The contents of the 4 files in the Mnist database are not directly accessible an
 
 
 The files in the <a href="http://yann.lecun.com/exdb/mnist/">MNIST database</a> and the source codes of the <a href="https://github.com/arpaka/mnist-loader ">MNIST loader project</a>  are located in the <a href="https://github.com/erdeneryesil/NeuralNetworkCore/tree/master/NeuralNetworkMnist/convertMnist">convertMnist</a> directory. When the <b>main.cpp</b> file is compiled and run, two files named <b>trainMNIST</b> and <b>testMNIST</b> will be created.
+
 <b>-trainMNIST :</b> Training data in the MNIST database has become available to be handled by NeuralNetworkMnist and it was saved to this file.<br />
-<b>-testMNIST :</b> Test data was also converted and stored.
+<b>-testMNIST :</b> Test data was also converted and stored.<br />
+
+## Creating a New Artificial Neural Network
+
+<p align="center">
+<img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/08706771-f9f6-450e-abe8-26a65468ffa4" width="800"/>
+</p>
+
+<b>New</b> button is clicked and the artifical neural network to be created is designed step by step.<br/><br/>
+Step 1 : The features of the input layer are determined.<br/>
+Step 2 : The features of the hidden layers are determined.<br/>
+Step 3 : The features of the output layer are determined.<br/>
+Step 4 : File and training parameters are determined.<br/>
+
+
+### Step 1: Input Layer
+
+<p align="center">
+<img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/af6bd25c-1310-420f-8e4f-bdcd8805af15" width="800"/>
+</p>
+
+
+The features that need to be determined in the <b>Input Layer</b> window:<br/><br/>
+-The number of real-world data that will be passed to the input layer of the artificial neural network.<br/>
+-Real-world input data passed to the artificial neural network must be converted to ‘ANN data types' before it can be processed by the neural network.<br/>
+-The min and max range of the input values.<br/><br/>
+
+Let's design the input layer for Mnist database : <br/><br/>
+-The number of inputs : 784<br/>
+
+<p align="center">
+<img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/170975b6-7de8-478d-a143-e6f1a1681479" width="400"/>
+</p>
+
+Each of the images in the Mnist dataset is 28px wide and 28px high. Therefore, it contains 784 pixels.
+
+  -  'ANN data types' into which real-world input data will be converted. <br/>
+Pixel data in the input layer of the artificial neural network was converted to <b>Native</b> type.
+
+
+
+
+
+
+
+
+
+
 
 
 
