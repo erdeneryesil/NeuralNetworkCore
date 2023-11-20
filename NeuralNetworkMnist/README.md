@@ -186,8 +186,8 @@ Let’s define training and file parameters:<br/>
 
 Two files were created named <b>nn0</b> and <b>nn0EW</b> in sample directory.
 
-<b>nn0</b> file stores the properties and parameters of the artificial neural network.
-<b>nn0EW</b> file will store the training records of the artificial neural network.
+<b>nn0</b> file stores the properties and parameters of the artificial neural network. <br/>
+<b>nn0EW</b> file will store the training records of the artificial neural network.<br/>
 
 <p align="center">
 <img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/c50f6138-077a-4734-9d6e-fd44f1963856" width="800"/>
@@ -195,12 +195,65 @@ Two files were created named <b>nn0</b> and <b>nn0EW</b> in sample directory.
 
 When the artificial neural network was created, a shape symbolizing the architecture of the artificial neural network was drawn on the right side of our application. On the left, it can be seen that all the features of the artificial neural network are listed under headings.
 
+## Opening an Existing Neural Network
+
+<p align="center">
+<img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/a28206bf-b105-42c7-862f-ae6d1037f15e" width="800"/>
+</p>
+
+<b>Open</b> button is clicked.
+
+<p align="center">
+<img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/73185547-b966-489e-a74d-88f34c361547" width="800"/>
+</p>
+
+The features that need to be determined in <b>Neural Network File</b> window:<br/>
+-The separator character used in existing artificial neural network files.<br/>
+-The location of the saved artificial neural network file.<br/>
 
 
+## Editing the Artificial Neural Network
+
+<p align="center">
+<img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/79cee377-e113-4779-aade-a9d190104ea3" width="800"/>
+</p>
+
+<b>Edit</b> button is clicked and the the artificial neural network is edited step by step.<br/>
+Step 1 : The features of the input layer are viewed.<br/>
+Step 2 : Some features of the hidden layers can be edited, the others can only be viewed.<br/>
+Step 3 : Some features of the output layer can be edited, the others can only be viewed.<br/>
+Step 4 : Training features can be edited but file features can only be viewed.<br/>
 
 
+### Step 1 : Input Layer
 
+<p align="center">
+<img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/5bfd8f4c-824d-4377-b710-9b1d9f9cbc5a" width="800"/>
+</p>
 
+Since the input layer of an existing artificial neural network cannot be edited, only the features of the input layer are viewed in <b>Input Layer</b> window.
+
+### Step 2 : Hidden Layers
+
+<p align="center">
+<img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/5d870ade-f3e9-4c62-8196-bec29d17960a" width="800"/>
+</p>
+
+The cell numbers of the hidden layers of an existing artificial neural network cannot be changed. However, the summation and the activation functions can be edited.
+
+### Step 3 : Output Layer
+
+<p align="center">
+<img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/546635aa-aabc-45a3-819b-f0bd40a492ba" width="800"/>
+</p>
+
+The summation function, the activation function and the tolerance values of the output layer of an existing artificial neural network can be edited. The other features cannot be updated and can only be viewed.
+
+### Step 4 : Training and File Settings
+
+<p align="center">
+<img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/2e0ca032-fb4c-4a89-8f9a-635c0974d6dd" width="800"/>
+</p>
 
 
 
