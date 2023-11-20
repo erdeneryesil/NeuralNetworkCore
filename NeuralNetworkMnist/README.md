@@ -1,4 +1,4 @@
-# NeuralNetworkMnist
+![22](https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/fb5b25d5-bbd5-4b80-817e-9c8ea28d4fa1)# NeuralNetworkMnist
 
 <p align="center">
 <img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/8763af07-52a9-491d-b3aa-1f761be65078" width="800"/>
@@ -254,10 +254,23 @@ The summation function, the activation function and the tolerance values of the 
 <img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/2e0ca032-fb4c-4a89-8f9a-635c0974d6dd" width="800"/>
 </p>
 
+The lambda and the alpha values of an existing artificial neural network can be updated. The separator character and file name cannot be edited.
 
+## Training the Artificial Neural Network
 
+<p align="center">
+<img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/938993b9-b9da-48d0-84a6-cc886873a0e7" width="800"/>
+</p>
 
+<b>Train</b> button is clicked.
 
+<p align="center">
+<img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/76dbac67-6f14-4f02-923b-1a9b15bf91e5" width="800"/>
+</p>
+
+Let's put the training and test set files(<b>testMnist</b>, <b>trainMnist</b>) in <b>sample</b> directory, just like <b>nn0</b> and <b>nn0EW</b> files.
+
+How the <b>testMNIST</b> and <b>trainMNIST</b> files were created was explained in the MNIST loader(##) (link ekle) topic.
 
 
 
