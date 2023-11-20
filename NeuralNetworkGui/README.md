@@ -64,12 +64,12 @@ Step 4 : File and training parameters are determined.<br/>
 <img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/a05749b2-6320-4139-9ba7-78d973469006" width="800"/>
 </p>
 
-The features that need to be determined in the <b>Input Layer</b> window:<br/><br/>
+The features that need to be determined in the <b>Input Layer</b> window:<br/>
 -The number of real-world data that will be passed to the input layer of the artificial neural network.<br/>
 -Real-world input data passed to the artificial neural network must be converted to ‘ANN data types' before it can be processed by the neural network.<br/>
 -The min and max range of the input values.<br/><br/>
 
-Let's design the input layer for our example:<br/><br/>
+Let's design the input layer for our example:<br/>
 -The number of inputs : 6<br/>
 -'ANN data types' into which real-world input data will be converted.<br/>
  	&nbsp; &nbsp;&nbsp; &nbsp;-Age -> Binary<br/>
@@ -92,13 +92,13 @@ Let's design the input layer for our example:<br/><br/>
 <p align="center">
 <img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/426fdabd-e26b-4530-9fd0-7f45423e7b9a" width="800"/>
 </p>
-The features that need to be determined in the <b>Hidden Layers</b> window:<br/><br/>
+The features that need to be determined in the <b>Hidden Layers</b> window:<br/>
 -The number of hidden layers <br/>
 -The number of cells each hidden layer has<br/>
 -The summation function of each hidden layer<br/>
 -The activation function of each hidden layer<br/><br/>
 
-Let's design the hidden layers for our example:<br/><br/>
+Let's design the hidden layers for our example:<br/>
 -The number of hidden layers : 2<br/>
 -First hidden layer:<br/>
 	&nbsp; &nbsp;&nbsp; &nbsp;-The number of cells : 22<br/>
@@ -115,7 +115,7 @@ Let's design the hidden layers for our example:<br/><br/>
 <img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/8df42eb1-b6f7-45ac-82b1-5dd71ad159a8" width="800"/>
 </p>
 
-The features that need to be determined in the <b>Output Layer</b> window:<br/><br/>
+The features that need to be determined in the <b>Output Layer</b> window:<br/>
 -The number of real world output data. (The artificial neural network can contain more than 1 output data ) <br/>
 -The summation function of the output layer<br/>
 -The activation function of the output layer<br/>
@@ -123,7 +123,7 @@ The features that need to be determined in the <b>Output Layer</b> window:<br/><
 -The min and max range of the output values.<br/>
 -The tolerance values of the output cells. When training our network, what is the acceptable margin of error regarding the expected outputs from the output cells? Each output cell will produce a value between 0 and 1. Therefore, we must take this into consideration when determining the tolerance.<br/><br/>
 
-Let's design the output layer for our example:<br/><br/>
+Let's design the output layer for our example:<br/>
 
 -The number of outputs : 1<br/>
 -The summation function: Weighted Total<br/>
@@ -139,7 +139,7 @@ Let's design the output layer for our example:<br/><br/>
 <img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/9b8703a4-66a1-4603-9df5-4367213ec66d" width="800"/>
 </p>
 
-The features that need to be determined in the <b>Training and File Settings</b> window:<br/><br/>
+The features that need to be determined in the <b>Training and File Settings</b> window:<br/>
 
 -Training features:<br/>
 &nbsp; &nbsp;&nbsp; &nbsp;-The lambda value<br/>
@@ -150,7 +150,7 @@ The features that need to be determined in the <b>Training and File Settings</b>
 &nbsp; &nbsp;&nbsp; &nbsp;-The location where the files to be created will be stored.<br/>
 &nbsp; &nbsp;&nbsp; &nbsp;-The names of the files in which the features of the artificial neural network are stored need to be determined.<br/><br/>
 
-Let’s define training and file parameters:<br/><br/>
+Let’s define training and file parameters:<br/>
 -Lambda = 0.015<br/>
 -Alfa = 0.15 <br/>
 -Random weight min =-1, Random weight  max=+1 <br/>
