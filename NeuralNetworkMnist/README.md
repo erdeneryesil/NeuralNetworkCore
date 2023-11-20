@@ -272,9 +272,47 @@ Let's put the training and test set files(<b>testMnist</b>, <b>trainMnist</b>) i
 
 How the <b>testMNIST</b> and <b>trainMNIST</b> files were created was explained in the <a href="https://github.com/erdeneryesil/NeuralNetworkCore/blob/master/NeuralNetworkMnist/README.md#mnist-loader">MNIST loader</a> topic.
 
+<p align="center">
+<img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/76cd708f-010d-49ac-95bb-aa9c47709d36" width="800"/>
+</p>
 
+Let's enter the location of <b>trainMnist</b> file, which contains the samples we will use to train our network, and the number 60000 since we want to use all the samples in this file. Then, let's click <b>Load Images</b> button so that the examples in the training set are loaded as images.
 
+<p align="center">
+<img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/c0f01545-dfcd-46a4-82ab-5158c91306d7" width="800"/>
+</p>
 
+When the examples in the <b>trainMnsit</b> file are loaded as images, images of each number can be viewed. After the samples are loaded as images, training is started by pressing the <b>OK</b> button.
+
+<p align="center">
+<img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/64c5cf0c-6016-44ac-82d0-ff908803eb6a" width="800"/>
+</p>
+
+The artificial neural network will start training. Epoch, total error value and number of updated weights are displayed simultaneously.
+
+<p align="center">
+<img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/e1110a42-12c6-4036-8259-a7bd41ddb863" width="800"/>
+</p>
+
+As soon as the training starts, the text on the <b>Train</b> button changes to <b>'Stop Training'</b>. To stop the training, it is necessary to press the same button again.
+
+<p align="center">
+<img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/c21c7c46-8d21-4966-b994-eb4e47694186" width="800"/>
+</p>
+
+In this example scenario, the training of the artificial neural network is terminated by the user by clicking <b>Stop Training</b> button when the 288th epoch value is reached.
+
+<p align="center">
+<img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/a6bbc7ea-7ed1-49d3-92ec-07d7b016128f" width="800"/>
+</p>
+
+By checking the <b>Show Graph</b>, the total error value and the number of updated weights can be displayed on the graph.
+
+<p align="center">
+<img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/10ca5e00-268a-41db-bd3b-53cccbdea888" width="800"/>
+</p>
+
+The blue dots represent the numbers of updated weights, and the red dots represent the total error values.
 
 
 
