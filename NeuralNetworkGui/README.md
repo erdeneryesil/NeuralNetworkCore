@@ -139,7 +139,6 @@ Let's design the output layer for our example:<br/>
 </p>
 
 The features that need to be determined in the <b>Training and File Settings</b> window:<br/>
-
 -Training features:<br/>
 &nbsp; &nbsp;&nbsp; &nbsp;-The lambda value<br/>
 &nbsp; &nbsp;&nbsp; &nbsp;-The alfa value<br/>
@@ -163,8 +162,8 @@ Let’s define training and file parameters:<br/>
 
 Two files were created named <b>insurance</b> and <b>insuranceEW</b> in sample directory.
 
-<b>insurance</b> file stores the properties and parameters of the artificial neural network.
-<b>insuranceEW</b> file will store the training records of the artificial neural network.
+<b>insurance</b> file stores the properties and parameters of the artificial neural network.<br/>
+<b>insuranceEW</b> file will store the training records of the artificial neural network.<br/>
 
 <p align="center">
 <img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/583b499f-7642-4d3c-ab2d-603576d5b061" width="800"/>
