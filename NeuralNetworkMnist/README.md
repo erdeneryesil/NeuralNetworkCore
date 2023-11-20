@@ -140,7 +140,6 @@ Let's design the hidden layers for our example: <br/>
 </p>
 
 The features that need to be determined in the <b>Output Layer</b> window:<br/>
-
 -The number of real world output data. (The artificial neural network can contain more than 1 output data ) <br/>
 -The summation function of the output layer<br/>
 -The activation function of the output layer<br/>
