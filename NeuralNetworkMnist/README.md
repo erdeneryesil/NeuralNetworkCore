@@ -47,7 +47,7 @@ The files included in the MNIST database are listed below.
 The contents of the 4 files in the Mnist database are not directly accessible and readable. In other words, it is not possible to read the content by opening it with an application such as notepad. However, these contents need to be handled and processed by NeuralNetworkMnist. <a href="https://github.com/arpaka/mnist-loader ">MNIST loader</a> project was used to achieve this transformation.
 
 
-The files in the <a href="http://yann.lecun.com/exdb/mnist/">MNIST database</a> and the source codes of the <a href="https://github.com/arpaka/mnist-loader ">MNIST loader project</a>  are located in the <a href="https://github.com/erdeneryesil/NeuralNetworkCore/tree/master/NeuralNetworkMnist/convertMnist">convertMnist</a> directory. When the <b>main.cpp</b> file is compiled and run, two files named <b>trainMNIST</b> and <b>testMNIST</b> will be created.
+The files in the <a href="http://yann.lecun.com/exdb/mnist/">MNIST database</a> and the source codes of the <a href="https://github.com/arpaka/mnist-loader ">MNIST loader project</a>  are located in the <a href="https://github.com/erdeneryesil/NeuralNetworkCore/tree/master/NeuralNetworkMnist/convertMnist">convertMnist</a> directory. When file <b>main.cpp</b> is compiled and run, two files named <b>trainMNIST</b> and <b>testMNIST</b> will be created.
 
 <b>-trainMNIST :</b> Training data in the MNIST database has become available to be handled by NeuralNetworkMnist and it was saved to this file.<br />
 <b>-testMNIST :</b> Test data was also converted and stored.<br />
@@ -185,8 +185,8 @@ Let’s define training and file parameters:<br/>
 
 Two files were created named <b>nn0</b> and <b>nn0EW</b> in sample directory.
 
-<b>nn0</b> file stores the properties and parameters of the artificial neural network. <br/>
-<b>nn0EW</b> file will store the training records of the artificial neural network.<br/>
+File <b>nn0</b> stores the properties and parameters of the artificial neural network. <br/>
+File <b>nn0EW</b> will store the training records of the artificial neural network.<br/>
 
 <p align="center">
 <img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/c50f6138-077a-4734-9d6e-fd44f1963856" width="800"/>
@@ -268,21 +268,21 @@ The lambda and the alpha values of an existing artificial neural network can be 
 <img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/76dbac67-6f14-4f02-923b-1a9b15bf91e5" width="800"/>
 </p>
 
-Let's put the training and test set files(<b>testMnist</b>, <b>trainMnist</b>) in <b>sample</b> directory, just like <b>nn0</b> and <b>nn0EW</b> files.
+Let's put files training and test set (<b>testMnist</b>, <b>trainMnist</b>) in <b>sample</b> directory, just like files <b>nn0</b> and <b>nn0EW</b>.
 
-How the <b>testMNIST</b> and <b>trainMNIST</b> files were created was explained in the <a href="https://github.com/erdeneryesil/NeuralNetworkCore/blob/master/NeuralNetworkMnist/README.md#mnist-loader">MNIST loader</a> topic.
+How files <b>testMNIST</b> and <b>trainMNIST</b> were created was explained in the <a href="https://github.com/erdeneryesil/NeuralNetworkCore/blob/master/NeuralNetworkMnist/README.md#mnist-loader">MNIST loader</a> topic.
 
 <p align="center">
 <img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/76cd708f-010d-49ac-95bb-aa9c47709d36" width="800"/>
 </p>
 
-Let's enter the location of <b>trainMnist</b> file, which contains the samples we will use to train our network, and the number 60000 since we want to use all the samples in this file. Then, let's click <b>Load Images</b> button so that the examples in the training set are loaded as images.
+Let's enter the location of file <b>trainMnist</b>, which contains the samples we will use to train our network, and the number 60000 since we want to use all the samples in this file. Then, let's click <b>Load Images</b> button so that the examples in the training set are loaded as images.
 
 <p align="center">
 <img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/c0f01545-dfcd-46a4-82ab-5158c91306d7" width="800"/>
 </p>
 
-When the examples in the <b>trainMnsit</b> file are loaded as images, images of each number can be viewed. After the samples are loaded as images, training is started by pressing the <b>OK</b> button.
+When the examples in file <b>trainMnsit</b> are loaded as images, images of each number can be viewed. After the samples are loaded as images, training is started by pressing the <b>OK</b> button.
 
 <p align="center">
 <img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/64c5cf0c-6016-44ac-82d0-ff908803eb6a" width="800"/>
@@ -330,7 +330,7 @@ Normally, an artificial neural network is tested using test set samples, but let
 <img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/6bc0b015-98fb-4b85-9daf-dec5916e5367" width="800"/>
 </p>
 
-Let's enter the location of <b>trainMnist</b> file, which contains the samples we will use to test our artificial neural network, and the number 60000 since we want to use all the samples in this file.
+Let's enter the location of file <b>trainMnist</b>, which contains the samples we will use to test our artificial neural network, and the number 60000 since we want to use all the samples in this file.
 
 <p align="center">
 <img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/ab01b1e2-138e-4399-b39d-833dc1f06fc9" width="800"/>
@@ -346,13 +346,13 @@ Testing is completed. It failed to predict 518 out of 60000 samples. Success rat
 
 ### Testing With Test Set (testMnist)
 
-The real success of the artificial neural network will be revealed in the test performed with test set samples. For this reason, the artificial neural network should be tested using the samples in the <b>testMnist</b> file.
+The real success of the artificial neural network will be revealed in the test performed with test set samples. For this reason, the artificial neural network should be tested using the samples in file <b>testMnist</b>.
 
 <p align="center">
 <img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/ec6772df-2fb5-49ec-8046-78804b2b8d7f" width="800"/>
 </p>
 
-Let's enter the location of <b>testMnist</b> file and the number 10000 since we want to use all the samples in this file.
+Let's enter the location of file <b>testMnist</b> and the number 10000 since we want to use all the samples in this file.
 
 <p align="center">
 <img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/cbe23bda-dabc-46a1-8fa0-a36890f99c7c" width="800"/>
@@ -402,7 +402,7 @@ Descriptions of the files in <a href="https://github.com/erdeneryesil/NeuralNetw
 
 - <b>nn0EW			:</b>The file where the training records of the artificial neural network we created previously will be stored. This file is empty because the artificial neural network has not been trained yet.<br />
 
-- <b>nn1		:</b> This is the file where the state of the artificial neural network saved in the 'nn0' file is stored after 288 epochs of training.<br />
+- <b>nn1		:</b> This is the file where the state of the artificial neural network saved in file 'nn0' is stored after 288 epochs of training.<br />
 
 - <b>nn1EW	:</b> It is the file where the training records of the artificial neural network are stored. Calculated at every epoch, it stores information such as total error values and numbers of updated weight.<br />
 
