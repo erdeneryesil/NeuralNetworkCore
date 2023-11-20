@@ -84,11 +84,22 @@ Let's design the input layer for Mnist database : <br/><br/>
 <img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/170975b6-7de8-478d-a143-e6f1a1681479" width="400"/>
 </p>
 
-Each of the images in the Mnist dataset is 28px wide and 28px high. Therefore, it contains 784 pixels.
+Each of the images in the Mnist dataset is 28px wide and 28px high. Therefore, it contains 784 pixels. <br /><br />
 
-  -  'ANN data types' into which real-world input data will be converted. <br/>
-Pixel data in the input layer of the artificial neural network was converted to <b>Native</b> type.
+-'ANN data types' into which real-world input data will be converted. <br/>
+Pixel data in the input layer of the artificial neural network was converted to <b>Native</b> type. <br /><br />
 
+<p align="center">
+<img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/8cec5e56-ec5c-4313-ac45-58e3154c6c5b" width="400"/>
+</p>
+
+The data called pixels are actually decimal numbers that can have values between -0.5 and 0.5 in the Mnist database. That means that pixel values can include not only black or white, but also shades of gray. As seen in the image above, there are many grayscale pixels.<br /><br />
+
+<p align="center">
+<img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/0c405d22-3103-46a0-94a2-6ddcc0c73e67" width="400"/>
+</p>
+
+In the convertion made using the <a href="https://github.com/arpaka/mnist-loader ">MNIST loader project</a>, grayscale pixels were assumed to be white and the background color was set to black. <br /><br />
 
 
 
