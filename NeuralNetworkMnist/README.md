@@ -77,7 +77,7 @@ The features that need to be determined in the <b>Input Layer</b> window:<br/><b
 -Real-world input data passed to the artificial neural network must be converted to ‘ANN data types' before it can be processed by the neural network.<br/>
 -The min and max range of the input values.<br/><br/>
 
-Let's design the input layer for Mnist database : <br/><br/>
+Let's design the input layer for Mnist database : <br/>
 -The number of inputs : 784<br/>
 
 <p align="center">
@@ -99,19 +99,63 @@ The data called pixels are actually decimal numbers that can have values between
 <img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/0c405d22-3103-46a0-94a2-6ddcc0c73e67" width="400"/>
 </p>
 
-In the convertion made using the <a href="https://github.com/arpaka/mnist-loader ">MNIST loader project</a>, grayscale pixels were assumed to be white and the background color was set to black. <br /><br />
+In the convertion made using the <a href="https://github.com/arpaka/mnist-loader ">MNIST loader</a> project, grayscale pixels were assumed to be white and the background color was set to black. <br /><br />
 
+<p align="center">
+<img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/2303f947-7400-40b6-96f2-53267ace3105" width="400"/>
+</p>
 
+<b>Native</b> data type was preferred because pixels can only take the value 0 or 1. <br /><br />
 
+-The min and max range of the input values: <br/>
+Since all input layer data was converted to <b>Native</b> type, min and max values were determined automatically, and there was no need to specify any values.<br />
 
+### Step 2: Hidden Layers
 
+<p align="center">
+<img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/b8a6d7c5-e784-47f7-bf1d-5441e8dfe651" width="800"/>
+</p>
 
+The features that need to be determined in the <b>Hidden Layers</b> window:<br/><br/>
+-The number of hidden layers<br/>
+-The number of cells each hidden layer has<br/>
+-The summation function of each hidden layer<br/>
+-The activation function of each hidden layer<br/><br/>
 
+Let's design the hidden layers for our example: <br/>
+-The number of hidden layers : 2<br/>
+-First hidden layer:<br/>
+	&nbsp; &nbsp;&nbsp; &nbsp;-The number of cells : 500<br/>
+	&nbsp; &nbsp;&nbsp; &nbsp;-The summation Function : Weighted Total<br/>
+	&nbsp; &nbsp;&nbsp; &nbsp;-The activation Function : Sigmoid<br/>
+-Second hidden layer:<br/>
+	&nbsp; &nbsp;&nbsp; &nbsp;-The number of cells : 250<br/>
+	&nbsp; &nbsp;&nbsp; &nbsp;-The summation Function : Weighted Total<br/>
+	&nbsp; &nbsp;&nbsp; &nbsp;-The activation Function : Sigmoid<br/><br/>
 
+ ### Step 3: Output Layer
+ 
+<p align="center">
+<img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/d4e5aa49-d300-4ecc-a517-17b2f71f9beb" width="800"/>
+</p>
 
+The features that need to be determined in the <b>Output Layer</b> window:<br/><br/>
 
+-The number of real world output data. (The artificial neural network can contain more than 1 output data ) <br/>
+-The summation function of the output layer<br/>
+-The activation function of the output layer<br/>
+-Just like inputs, output data needs to be converted into 'ANN data types' that the artificial neural network can process.<br/>
+-The min and max range of the output values.<br/>
+-The tolerance values of the output cells. When training our network, what is the acceptable margin of error regarding the expected outputs from the output cells? Each output cell will produce a value between 0 and 1. Therefore, we must take this into consideration when determining the tolerance.<br/><br/>
 
+Let's design the output layer for our example:<br/>
 
+-The number of outputs : 1<br/>
+-The summation function: Weighted Total<br/>
+-The activation function : Sigmoid<br/>
+-'ANN data type' into which the digit data will be converted : Flag <br/>
+-The min and max range of the output value:  0 – 9<br/>
+-The tolerance value : 0.1<br/>
 
 
 
