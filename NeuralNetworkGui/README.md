@@ -341,7 +341,7 @@ All input values are entered with a separator character between them.
 -Output &nbsp;  : &nbsp; 4 (25K-35K)
 
 
-#### Note
+## Note
 Descriptions of the files in <a href="https://github.com/erdeneryesil/NeuralNetworkCore/tree/master/NeuralNetworkGui/sample">sample</a> directory are below.
 
 - <b>insurance 			:</b>  The file that we created previously and where the properties and parameters of the artificial neural network are stored. This artificial neural network has not been trained yet.<br />
