@@ -52,7 +52,7 @@ The dataset contains 7 fields. The first 6 of these will be our input data, and 
 <img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/552a6965-a114-4176-852e-7d56beab6b05" width="800"/>
 </p>
 
-<b>New</b> button is clicked and the artifical neural network to be created is designed step by step.<br/><br/>
+Button <b>New</b> is clicked and the artifical neural network to be created is designed step by step.<br/><br/>
 Step 1 : The features of the input layer are determined.<br/>
 Step 2 : The features of the hidden layers are determined.<br/>
 Step 3 : The features of the output layer are determined.<br/>
@@ -162,8 +162,8 @@ Let’s define training and file parameters:<br/>
 
 Two files were created named <b>insurance</b> and <b>insuranceEW</b> in sample directory.
 
-<b>insurance</b> file stores the properties and parameters of the artificial neural network.<br/>
-<b>insuranceEW</b> file will store the training records of the artificial neural network.<br/>
+File <b>insurance</b> stores the properties and parameters of the artificial neural network.<br/>
+File <b>insuranceEW</b> will store the training records of the artificial neural network.<br/>
 
 <p align="center">
 <img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/583b499f-7642-4d3c-ab2d-603576d5b061" width="800"/>
@@ -176,7 +176,7 @@ When the artificial neural network was created, a shape symbolizing the architec
 <img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/cc351675-3ead-4e20-af1b-e035b2583748" width="800"/>
 </p>
 
-<b>Open</b> button is clicked.
+Button <b>Open</b> is clicked.
 
 <p align="center">
 <img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/68e8b154-262c-42b7-b4cb-f7120f03a972" width="800"/>
@@ -192,7 +192,7 @@ The features that need to be determined in <b>Neural Network File</b> window:<br
 <img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/f06313bd-3e8c-44a0-baab-c39d3ed22005" width="800"/>
 </p>
 
-<b>Edit</b> button is clicked and the the artificial neural network is edited step by step.<br/>
+Button <b>Edit</b> is clicked and the the artificial neural network is edited step by step.<br/>
 Step 1 : The features of the input layer are viewed.<br/>
 Step 2 : Some features of the hidden layers can be edited, the others can only be viewed.<br/>
 Step 3 : Some features of the output layer can be edited, the others can only be viewed.<br/>
@@ -236,7 +236,7 @@ The lambda and the alpha values of an existing artificial neural network can be 
 <img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/7e76e029-7fb1-4cac-8ef1-26b3469cd1aa" width="600"/>
 </p>
 
-First, let's put the training and test set files(<b>Train</b>, <b>Test</b>) in <b>sample</b> directory, just like the insurance and insuranceEW files.
+First, let's put the training and test set files(<b>Train</b>, <b>Test</b>) in <b>sample</b> directory, just like files insurance and insuranceEW.
 
 There were a total of 1338 rows in the dataset of our example problem. In other words, information about 1338 people is included in our data set. But since we categorized the <b>Charges</b> column between 0-6, data repetition occurred in some records. The records decreased from 1338 to 1335, meaning 3 rows were deleted. 
 Of the 1335 rows, 935 were transferred to the training set and 400 were transferred to the test set.
@@ -245,13 +245,13 @@ Of the 1335 rows, 935 were transferred to the training set and 400 were transfer
 <img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/04f82540-6de2-4817-8832-b7e42e88b8e9" width="800"/>
 </p>
 
-<b>Train</b> button is clicked.
+Button <b>Train</b> is clicked.
 
 <p align="center">
 <img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/ccc04d1c-22eb-4c47-89ce-afb47dc0a210" width="800"/>
 </p>
 
-Let's enter the location of <b>Train</b> file, which contains the samples we will use to train our network, and the number 935 since we want to use all the samples in this file.
+Let's enter the location of file <b>Train</b>, which contains the samples we will use to train our network, and the number 935 since we want to use all the samples in this file.
 
 <p align="center">
 <img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/4ac781fa-94eb-4aab-b51a-c1353d7141c1" width="800"/>
@@ -263,7 +263,7 @@ The artificial neural network will start training. Epoch, total error value and 
 <img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/d5ee2c7d-9696-487f-ac59-10d54fb5d60e" width="800"/>
 </p>
 
-As soon as the training starts, the text on the <b>Train</b> button changes to <b>'Stop Training'</b>. To stop the training, it is necessary to press the same button again.
+As soon as the training starts, the text on button  <b>Train</b> changes to <b>'Stop Training'</b>. To stop the training, it is necessary to press the same button again.
 
 
 <p align="center">
@@ -284,7 +284,7 @@ The blue dots represent the numbers of updated weights, and the red dots represe
 <img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/ba00944f-e610-467a-a7f3-30c1007b5611" width="800"/>
 </p>
 
-In this example scenario, the training of the artificial neural network is terminated by the user by clicking <b>Stop Training</b> button when the 7225th epoch value is reached.
+In this example scenario, the training of the artificial neural network is terminated by the user by clicking button <b>Stop Training</b> when the 7225th epoch value is reached.
 
 
 ## Testing The Artificial Neural Network
@@ -293,14 +293,14 @@ In this example scenario, the training of the artificial neural network is termi
 <img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/51e274f7-9a1b-4a1b-bdde-556417e9b669" width="800"/>
 </p>
 
-<b>Test</b> button is clicked.
+Button <b>Test</b> is clicked.
 
 
 <p align="center">
 <img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/1f78bdd6-a4ac-4dbb-a7ce-dccf6629871a" width="800"/>
 </p>
 
-Let's enter the location of <b>Test</b> file, which contains the samples we will use to test our network, and the number 400 since we want to use all the samples in this file.
+Let's enter the location of file <b>Test</b>, which contains the samples we will use to test our network, and the number 400 since we want to use all the samples in this file.
 
 
 <p align="center">
@@ -316,7 +316,7 @@ Testing is completed. It failed to predict 38 out of 400 samples. Success rate i
 <img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/ed68774d-189b-4106-b9ca-c1a25883665d" width="800"/>
 </p>
 
-<b>Run</b> button is clicked.
+Button <b>Run</b> is clicked.
 
 <p align="center">
 <img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/5f900aee-5177-452b-9bba-9797ef28a8c4" width="800"/>
@@ -346,7 +346,7 @@ Descriptions of the files in <a href="https://github.com/erdeneryesil/NeuralNetw
 
 - <b>insuranceEW			:</b> The file where the training records of the artificial neural network we created previously will be stored. This file is empty because the artificial neural network has not been trained yet.<br />
 
-- <b>insuranceTrained		:</b> This is the file where the state of the artificial neural network saved in the 'insurance' file is stored after 7225 epochs of training.<br />
+- <b>insuranceTrained		:</b> This is the file where the state of the artificial neural network saved in file <b>insurance</b> is stored after 7225 epochs of training.<br />
 
 - <b>insuranceTrainedEW	:</b> It is the file where the training records of the artificial neural network are stored. Calculated at every epoch, it stores information such as total error values and numbers of updated weight.<br />
 
