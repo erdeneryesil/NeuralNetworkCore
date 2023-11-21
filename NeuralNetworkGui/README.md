@@ -186,13 +186,13 @@ The features that need to be determined in <b>Neural Network File</b> window:<br
 -The separator character used in existing artificial neural network files.<br/>
 -The location of the saved artificial neural network file.<br/>
 
-## Editing the Artificial Neural Network
+## Editing The Artificial Neural Network
 
 <p align="center">
 <img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/f06313bd-3e8c-44a0-baab-c39d3ed22005" width="800"/>
 </p>
 
-Button <b>Edit</b> is clicked and the the artificial neural network is edited step by step.<br/>
+Button <b>Edit</b> is clicked and the artificial neural network is edited step by step.<br/>
 Step 1 : The features of the input layer are viewed.<br/>
 Step 2 : Some features of the hidden layers can be edited, the others can only be viewed.<br/>
 Step 3 : Some features of the output layer can be edited, the others can only be viewed.<br/>
@@ -231,7 +231,7 @@ The summation function, the activation function and the tolerance values of the 
 
 The lambda and the alpha values of an existing artificial neural network can be updated. The separator character and file name cannot be edited.
 
-## Training the Artificial Neural Network
+## Training The Artificial Neural Network
 <p align="center">
 <img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/7e76e029-7fb1-4cac-8ef1-26b3469cd1aa" width="600"/>
 </p>
@@ -270,7 +270,7 @@ As soon as the training starts, the text on button  <b>Train</b> changes to <b>'
 <img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/81962ca8-4eb0-4b67-bd51-1fccb9051132" width="800"/>
 </p>
 
-By checking the <b>Show Graph</b>, the total error value and the number of updated weights can be displayed on the graph.
+By checking check box <b>Show Graph</b>, the total error value and the number of updated weights can be displayed on the graph.
 
 
 <p align="center">
@@ -310,7 +310,7 @@ Let's enter the location of file <b>Test</b>, which contains the samples we will
 Testing is completed. It failed to predict 38 out of 400 samples. Success rate is 90.5%
 
 
-## Running the Artificial Neural Network
+## Running The Artificial Neural Network
 
 <p align="center">
 <img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/ed68774d-189b-4106-b9ca-c1a25883665d" width="800"/>
