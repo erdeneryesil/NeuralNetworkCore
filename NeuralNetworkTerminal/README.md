@@ -57,7 +57,7 @@ The dataset contains 7 fields. The first 6 of these will be our input data, and 
 <img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/356ed31d-9ad8-4c73-8494-5d498ab25157" width="800"/>
 </p>
 
-There are 2 options at the "OPEN OR CREATE A NEURALNETWORK" stage.<br /><br />
+There are 2 options at stage "OPEN OR CREATE A NEURALNETWORK".<br /><br />
 0 - Open a neural network<br />
 1 - Create a new neural network<br /><br />
 1 must be entered to create a new neural network.<br /><br />
@@ -208,7 +208,7 @@ File <b>insuranceEW</b> will store the training records of the artificial neural
 <img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/d9cb1e39-2d3a-48d4-9ec4-23c8f49cc511" width="800"/>
 </p>
 
-It has been mentioned before that there are 2 options in the "OPEN OR CREATE NEURAL NETWORK" stage. <br /><br />- To open a previously saved artificial neural network, 0 must be entered.
+It has been mentioned before that there are 2 options in stage "OPEN OR CREATE NEURAL NETWORK". <br /><br />- To open a previously saved artificial neural network, 0 must be entered.
 
 ### Step 2 : SEPARATOR CHARACTER
 <p align="center">
@@ -236,7 +236,7 @@ Operations that can be run using the artificial neural network<br /><br />
 2 - Run (Getting the output value by passing the input values to the artificial neural network)<br />
 3 - Inform (Listing the features of the artificial neural network.)<br />
 
-## Training the Artificial Neural Network
+## Training The Artificial Neural Network
 <p align="center">
 <img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/ecebe0e7-f749-4484-895c-c0c881f74532" width="800"/>
 </p>
