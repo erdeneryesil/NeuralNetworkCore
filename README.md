@@ -71,14 +71,14 @@ Features such as how many cells are in the output layer or what real world data 
 LogEW is abbreviation for 'Log of Errors(E) and updated Weights(W)'.
 
 Training a neural network with all training data for one cycle is called 'epoch'. Class LogEW stores both total error values calculated and number of updated weights in a file at the end of an epoch. And repeats that every epoch. This file also contains the properties that the network had at the time of that training.
-The following are the data saved in the LogEW file.
+The following are the data saved in file LogEW.
 - Summation and activation functions of hidden layers and output layer (Because they are can be changed for each training).
 - Tolerances of the output layer data (Because they are can be changed for each training).
 - Lambda and alfa values of the neural network (Because they are can be changed for each training).
 - The number of samples to be used in the training.
 - At the end of each period, both the calculated total error value and the number of updated weights.
 
-The features mentioned in the first 4 of the 5 items listed above are added to the LogEW file only once for each training. However, both the total calculated errors and the number of updated weights are added to the LogEW file at the end of each cycle throughout the training.Any training can go on for thousands of epochs. LogEW file stores records for each training in a single line. So, the number of lines in the LogEW file means the number of trainings.   
+The features mentioned in the first 4 of the 5 items listed above are added to file LogEW only once for each training. However, both the total calculated errors and the number of updated weights are added to file LogEW at the end of each cycle throughout the training.Any training can go on for thousands of epochs. File LogEW stores records for each training in a single line. So, the number of lines in file LogEW means the number of trainings.   
 
 ### Class NeuralNetwork
 <p align="center">
@@ -86,11 +86,11 @@ The features mentioned in the first 4 of the 5 items listed above are added to t
 </p>
 This class represents an artificial neural network. Since all other classes model the components of an artificial neural network, they are directly or indirectly included in this class and build an artificial neural network.
 
-When this class is instantiated, 2 files are created. The first is the file (called the ANN file) where all the properties of the network are stored. The second is the LogEW file, where the trainings applied to the artificial neural network is recorded, and the details about this file are specified in the LogEW class. These two files are named using a user-specified phrase. For example, if the user determined the name "my_ann" while creating the artificial neural network, the ANN file is named "my_ann" and the LogEw file is named "my_annEW".
+When this class is instantiated, 2 files are created. The first is the file (called file ANN) where all the properties of the network are stored. The second is file LogEW, where the trainings applied to the artificial neural network is recorded, and the details about this file are specified in the LogEW class. These two files are named using a user-specified phrase. For example, if the user determined the name "my_ann" while creating the artificial neural network, file ANN is named "my_ann" and file LogEw is named "my_annEW".
 
-Apart from ANN and LogEW files, training and test set samples should be stored in different files. There is no relationship between the names of these files and the name of the artificial neural network. Training and test set files can have any name.
+Apart from files ANN and LogEW, training and test set samples should be stored in different files. There is no relationship between the names of these files and the name of the artificial neural network. Training and test set files can have any name.
 
-The data in the ANN file, LogEW file, training set file and test set file are ordered one after another using the separator character, and this separator character is determined by the user when creating the ANN. There are 4 options that the user can specify as separator characters. These are space( ), comma(,), semicolon(;) and pipe(|) characters.
+The data in file ANN,file LogEW, training set file and test set file are ordered one after another using the separator character, and this separator character is determined by the user when creating the ANN. There are 4 options that the user can specify as separator characters. These are space( ), comma(,), semicolon(;) and pipe(|) characters.
 
 ## Data Types
 The real-world input and output values passed to an artificial neural network must be numerical in order for the neural network to understand them. For this reason within the NeuralNetworkCore library, there are classes that convert real-world input and output values into data types that the artificial neural network can handle. These are Binary, Flag, Narrowed and Native classes. These classes will be called to as ‘ANN data types’.
@@ -196,10 +196,10 @@ For training:
 - Lambda and alfa values
 - Assigns the weight values of the cells randomly when a neural network is created for the first time. For this reason the minimum and maximum values of the range of random numbers must be specified.
 
-For ANN file:
+For file ANN:
 - Separator character(comma(,)  semicolon(;) etc.)
-- Locaiton to save ANN file
-- Name of ANN file
+- Locaiton to save file ANN
+- Name of file ANN
 
 Let's see how to design the input, hidden and output layers of an artificial neural network on an <a href="https://www.kaggle.com/datasets/mirichoi0218/insurance
 " >example problem.</a>
@@ -328,7 +328,7 @@ Applications with 3 different interfaces developed based on the NeuralNetworkCor
 - <a href="https://github.com/erdeneryesil/NeuralNetworkCore/tree/master/NeuralNetworkGui">NeuralNetworkGui</a>
 - <a href="https://github.com/erdeneryesil/NeuralNetworkCore/tree/master/NeuralNetworkMnist">NeuralNetworkMnist</a>
 
-The source codes of the NeuralNetworkCore library are located in the 'neural_network_core' directory in these 3 projects. Detailed explanations about the classes can be found in the comment lines of the 'cell.h', 'data.h' and 'neural_network.h' files located in the 'neural_network_core' directory.
+The source codes of the NeuralNetworkCore library are located in the 'neural_network_core' directory in these 3 projects. Detailed explanations about the classes can be found in the comment lines of files 'cell.h', 'data.h' and 'neural_network.h' located in the 'neural_network_core' directory.
 
 
 
