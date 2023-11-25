@@ -6,7 +6,7 @@
 
 NeuralNetworkTerminal is an application run in terminal, where operations such as creating, training and testing an artificial neural network can be performed using the NeuralNetworkCore library.
 
-When we run the application, we see the name of our application, 'NEURAL NETWORK TERMINAL', at the top.
+When we run the application, we see the name of our application, <b>NEURAL NETWORK TERMINAL</b>, at the top.
 
 Since the application will be managed via terminal, the options will be determined using numbers. So, no matter what level of the menu, we will make every choice with numbers.
 
@@ -264,7 +264,7 @@ Of the 1335 rows, 935 were transferred to the training set and 400 were transfer
 <p align="center">
 <img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/511ffaf8-5009-43ff-a7b3-aa382d4840db" width="800"/>
 </p>
-- In this example scenario, the training of the artificial neural network is terminated by the user by pressing the 'q' key on the keyboard when the 7225th epoch value is reached.
+- In this example scenario, the training of the artificial neural network is terminated by the user by pressing the <b>q</b> key on the keyboard when the 7225th epoch value is reached.
 
 ## Testing The Artificial Neural Network
 <p align="center">
@@ -330,7 +330,7 @@ Descriptions of the files in <a href="https://github.com/erdeneryesil/NeuralNetw
 
 - <b>insuranceEW			:</b> The file where the training records of the artificial neural network we created previously will be stored. This file is empty because the artificial neural network has not been trained yet.<br />
 
-- <b>insuranceTrained		:</b> This is the file where the state of the artificial neural network saved in file 'insurance' is stored after 7225 epochs of training.<br />
+- <b>insuranceTrained		:</b> This is the file where the state of the artificial neural network saved in file <b>insurance</b> is stored after 7225 epochs of training.<br />
 
 - <b>insuranceTrainedEW	:</b> It is the file where the training records of the artificial neural network are stored. Calculated at every epoch, it stores information such as total error values and numbers of updated weight.<br />
 
