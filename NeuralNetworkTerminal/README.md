@@ -198,8 +198,8 @@ The names of the files in which the features of the artificial neural network ar
 
 Two files were created named 'insurance' and 'insuranceEW'.<br />
 
-<b>insurance</b> file stores the properties and parameters of the artificial neural network.<br />
-<b>insuranceEW</b> file will store the training records of the artificial neural network.
+File <b>insurance</b> will store the properties and parameters of the artificial neural network.<br />
+File <b>insuranceEW</b> will store the training records of the artificial neural network.
 
 
 ## Opening an Existing Neural Network
@@ -254,7 +254,7 @@ Of the 1335 rows, 935 were transferred to the training set and 400 were transfer
 <p align="center">
 <img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/b8a49b96-54c7-4402-9488-1841804b509c" width="800"/>
 </p>
- - First, let's enter the location of <b>Train</b> file. Next, let's enter the value 935 since all samples are wanted to be used. <br />
+ - First, let's enter the location of file <b>Train</b>. Next, let's enter the value 935 since all samples are wanted to be used. <br />
 
 <p align="center">
 <img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/49074447-5aac-4743-922d-fa0d4abbec9f" width="800"/>
@@ -278,7 +278,7 @@ The artificial neural network can be tested by entering 1 in <b>Operation</b> me
 <p align="center">
 <img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/a2dff670-09a6-4160-9572-b622fc63d3fa" width="800"/>
 </p>
-  - First, let's enter the location of <b>Test</b> file. Next, let's enter the value 400 since all samples are wanted to be used.<br />
+  - First, let's enter the location of file <b>Test</b>. Next, let's enter the value 400 since all samples are wanted to be used.<br />
   
 <p align="center">
 <img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/906bca03-98c6-4f6e-bd3f-08665ac6b835" width="800"/>
@@ -330,7 +330,7 @@ Descriptions of the files in <a href="https://github.com/erdeneryesil/NeuralNetw
 
 - <b>insuranceEW			:</b> The file where the training records of the artificial neural network we created previously will be stored. This file is empty because the artificial neural network has not been trained yet.<br />
 
-- <b>insuranceTrained		:</b> This is the file where the state of the artificial neural network saved in the 'insurance' file is stored after 7225 epochs of training.<br />
+- <b>insuranceTrained		:</b> This is the file where the state of the artificial neural network saved in file 'insurance' is stored after 7225 epochs of training.<br />
 
 - <b>insuranceTrainedEW	:</b> It is the file where the training records of the artificial neural network are stored. Calculated at every epoch, it stores information such as total error values and numbers of updated weight.<br />
 
