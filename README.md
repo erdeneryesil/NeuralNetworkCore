@@ -78,7 +78,7 @@ The following are the data saved in file LogEW.
 - The number of samples to be used in the training.
 - At the end of each period, both the calculated total error value and the number of updated weights.
 
-The features mentioned in the first 4 of the 5 items listed above are added to file LogEW only once for each training. However, both the total calculated errors and the number of updated weights are added to file LogEW at the end of each cycle throughout the training.Any training can go on for thousands of epochs. File LogEW stores records for each training in a single line. So, the number of lines in file LogEW means the number of trainings.   
+The features mentioned in the first 4 of the 5 items listed above are added to file LogEW only once for each training. However, both the total calculated errors and the number of updated weights are added to file LogEW at the end of each cycle throughout the training. Any training can go on for thousands of epochs. File LogEW stores records for each training in a single line. So, the number of lines in file LogEW means the number of trainings.   
 
 ### Class NeuralNetwork
 <p align="center">
@@ -86,17 +86,17 @@ The features mentioned in the first 4 of the 5 items listed above are added to f
 </p>
 This class represents an artificial neural network. Since all other classes model the components of an artificial neural network, they are directly or indirectly included in this class and build an artificial neural network.
 
-When this class is instantiated, 2 files are created. The first is the file (called file ANN) where all the properties of the network are stored. The second is file LogEW, where the trainings applied to the artificial neural network is recorded, and the details about this file are specified in the LogEW class. These two files are named using a user-specified phrase. For example, if the user determined the name "my_ann" while creating the artificial neural network, file ANN is named "my_ann" and file LogEw is named "my_annEW".
+When this class is instantiated, 2 files are created. The first is the file (called file ANN) where all the properties of the network are stored. The second is file LogEW, where the trainings applied to the artificial neural network is recorded, and the details about this file are specified in class LogEW. These two files are named using a user-specified phrase. For example, if the user determined the name "my_ann" while creating the artificial neural network, file ANN is named "my_ann" and file LogEw is named "my_annEW".
 
 Apart from files ANN and LogEW, training and test set samples should be stored in different files. There is no relationship between the names of these files and the name of the artificial neural network. Training and test set files can have any name.
 
-The data in file ANN,file LogEW, training set file and test set file are ordered one after another using the separator character, and this separator character is determined by the user when creating the ANN. There are 4 options that the user can specify as separator characters. These are space( ), comma(,), semicolon(;) and pipe(|) characters.
+The data in file ANN, file LogEW, training set file and test set file are ordered one after another using the separator character, and this separator character is determined by the user when creating the artificial neural network. There are 4 options that the user can specify as separator characters. These are space( ), comma(,), semicolon(;) and pipe(|) characters.
 
 ## Data Types
 The real-world input and output values passed to an artificial neural network must be numerical in order for the neural network to understand them. For this reason within the NeuralNetworkCore library, there are classes that convert real-world input and output values into data types that the artificial neural network can handle. These are Binary, Flag, Narrowed and Native classes. These classes will be called to as ‘ANN data types’.
 
 ### Binary
-Converts real-world data into a type that is very similar to the binary number system, but with some differences, so that the artificial neural network can handle it.Unlike the binary number system, this class has 2 major features.The first of these is that it can also take account of the sign of numbers. And the second the bits may be different from 0-1 values. For example, if an instance of this class is used in the output layer and the preferred activation function is TanH, the bits will be -1 or 1. When converting real-world data to an instance of the Binary class, the range of this data is important because the number of digits in the Binary instance will be calculated based on the absolute value of these minimum and maximum values.
+Converts real-world data into a type that is very similar to the binary number system, but with some differences, so that the artificial neural network can handle it.Unlike the binary number system, this class has 2 major features.The first of these is that it can also take account of the sign of numbers. And the second the bits may be different from 0-1 values. For example, if an instance of this class is used in the output layer and the preferred activation function is TanH, the bits will be -1 or 1. When converting real-world data to an instance of class Binary, the range of this data is important because the number of digits in the Binary instance will be calculated based on the absolute value of these minimum and maximum values.
 
 
 <ins><b>Example 1:</b></ins> Let's say you have a real-world data that can take values between -7 and 63. The current value of this data is 3. If this data is converted to Binary instance (preferred activation function is Sigmoid) :
@@ -105,7 +105,7 @@ Converts real-world data into a type that is very similar to the binary number s
 - Maimum value 63 (without sign)           :   1 1 1 1 1 1     - 6 digits.
 - Maximum value 63 (with the sign)        :   1 1 1 1 1 1 1   - 7 digits. First bit is the sign. 1 indicates positive.
 
-The maximum number of digits is 7. So the instance of the Binary class must contain 7 digits.
+The maximum number of digits is 7. So the instance of class Binary must contain 7 digits.
 - Current value 3                           :   1 0 0 0 0 1 1   - It must be represented as 7 digits in total.
 
 <ins><b>Example 2:</ins></b> If the activation function chosen in Example 1 is TanH :
@@ -117,7 +117,7 @@ The maximum number of digits is 7. So the instance of the Binary class must cont
 - Maximum value 7 (without sign)            :   1 1 1           - 3 digits.
 - Maximum value 7 (with the sign)           :   1 1 1 1         - 4 digits. First bit is the sign. 1 indicates positive.
 
-The maximum number of digits is 7. So the instance of the Binary class must contain 7 digits.
+The maximum number of digits is 7. So the instance of class Binary must contain 7 digits.
 - Current value 3
 
 ### Flag
@@ -147,29 +147,29 @@ Scales real-world data. A real world data is scaled from 0 to 1 and this scaled 
 <ins><b>Example 1:</ins></b> Minimum value of the real-world data    : 0
 - Maximum value of the real-world data    : 100
 - Activation Function                     : Sigmoid(0,1)
-- If the current value of the real-world data is 0, the Narrowed object stores 0.0
-- If the current value of the real-world data is 15, the Narrowed object stores 0.15
-- If the current value of the real-world data is 50, the Narrowed object stores 0.5
-- If the current value of the real-world data is 100, the Narrowed object stores 1.0
+- If the current value of the real-world data is 0, object Narrowed stores 0.0
+- If the current value of the real-world data is 15, object Narrowed stores 0.15
+- If the current value of the real-world data is 50, object Narrowed stores 0.5
+- If the current value of the real-world data is 100, object Narrowed stores 1.0
 
 <ins><b>Example 2:</ins></b> Minimum value of the real-world data    : 0
 - Maximum value of the real-world data    : 100
 - Activation Function                     : TanH(-1,1)
-- If the current value of the real-world data is 0, the Narrowed object stores -1.0
-- If the current value of the real-world data is 15, the Narrowed object stores -0.7
-- If the current value of the real-world data is 50, the Narrowed object stores 0.0
-- If the current value of the real-world data is 100, the Narrowed object stores 1.0
+- If the current value of the real-world data is 0, object Narrowed stores -1.0
+- If the current value of the real-world data is 15, object Narrowed stores -0.7
+- If the current value of the real-world data is 50, object Narrowed stores 0.0
+- If the current value of the real-world data is 100, object Narrowed stores 1.0
 
 <ins><b>Example 3:</ins></b> Minimum value of the real-world data    : -50
 - Maximum value of the real-world data    : 50
 - Activation Function                     : Sigmoid(0,1)
-- If the current value of the real-world data is -50, the Narrowed object stores 0.0
-- If the current value of the real-world data is 0, the Narrowed object stores 0.5
-- If the current value of the real-world data is 50, the Narrowed object stores 1.0
+- If the current value of the real-world data is -50, object Narrowed stores 0.0
+- If the current value of the real-world data is 0, object Narrowed stores 0.5
+- If the current value of the real-world data is 50, object Narrowed stores 1.0
 
 
 ### Native
-Can be used if the real-world data is already in the range 0-1 and therefore does not need any transformations. The real world data and the data stored in the instance of the Native class are exactly the same and have a value between 0 and 1. The value in Native object is not modificated. If scaling is required in a different range according to the activation function of the output layer, it is calculated instantly and returned.
+Can be used if the real-world data is already in the range 0-1 and therefore does not need any transformations. The real world data and the data stored in the instance of class Native are exactly the same and have a value between 0 and 1. The value in object Native is not modificated. If scaling is required in a different range according to the activation function of the output layer, it is calculated instantly and returned.
 
 
 ## Designing An Artificial Neural Network
@@ -328,7 +328,7 @@ Applications with 3 different interfaces developed based on the NeuralNetworkCor
 - <a href="https://github.com/erdeneryesil/NeuralNetworkCore/tree/master/NeuralNetworkGui">NeuralNetworkGui</a>
 - <a href="https://github.com/erdeneryesil/NeuralNetworkCore/tree/master/NeuralNetworkMnist">NeuralNetworkMnist</a>
 
-The source codes of the NeuralNetworkCore library are located in the 'neural_network_core' directory in these 3 projects. Detailed explanations about the classes can be found in the comment lines of files 'cell.h', 'data.h' and 'neural_network.h' located in the 'neural_network_core' directory.
+The source codes of the NeuralNetworkCore library are located in the <b>neural_network_core</b> directory in these 3 projects. Detailed explanations about the classes can be found in the comment lines of files <b>cell.h</b>, <b>data.h</b> and <b>neural_network.h</b> located in the <b>neural_network_core</b> directory.
 
 
 
