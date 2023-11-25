@@ -123,7 +123,7 @@ The maximum number of digits is 7. So the instance of class Binary must contain 
 ### Flag
 Works in flag logic. The flag representing the current value of the real-world data is enabled, all other flags are disabled. In the input layer of the artificial neural network, 1 represents the enabled flag and 0 represents the disabled flag. However, in the output layer, the flags can also store a pair of -1 and 1 depending on the preferred activation function.
 
-Like Binary class, instance of Flag class can take account of the sign of numbers.
+Like class Binary, instance of class Flag can take account of the sign of numbers.
 
 <ins><b>Example 1:</ins></b> Let's say you have a real-world data that can take values between 0 and 5. The current value of this data is 3. If this data is converted to Flag instance (preferred activation function is Sigmoid) :
 - Flags        : 1 0 0 0 1 0 0          - sign(+) , Flag0(disabled) , Flag1(disabled) , Flag2(disabled) , Flag3(enabled) , Flag4(disabled) , Flag5(disabled))
