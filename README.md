@@ -72,7 +72,7 @@ LogEW is abbreviation for 'Log of Errors(E) and updated Weights(W)'.
 
 Training an artificial neural network with all training data for one cycle is called 'epoch'. Class LogEW stores both total error values calculated and number of updated weights in a file at the end of an epoch. And repeats that every epoch. This file also contains the properties that the artificial neural network had at the time of that training.
 The following are the data saved in file LogEW.
-- Summation and activation functions of hidden layers and output layer (Because they are can be changed for each training).
+- Summation and activation functions of the hidden layers and the output layer (Because they are can be changed for each training).
 - Tolerances of the output layer data (Because they are can be changed for each training).
 - Lambda and alfa values of the neural network (Because they are can be changed for each training).
 - The number of samples to be used in the training.
