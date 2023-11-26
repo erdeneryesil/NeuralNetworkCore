@@ -68,9 +68,9 @@ Contains and manages the features of the output layer of an artificial neural ne
 Features such as how many cells are in the output layer or what real world data the outputs from these cells will be converted to are handled by this class.
 
 ### Class LogEW
-LogEW is abbreviation for 'Log of Errors(E) and updated Weights(W)'.
+LogEW is abbreviation for "Log of Errors(E) and updated Weights(W)".
 
-Training an artificial neural network with all training data for one cycle is called 'epoch'. Class LogEW stores both total error values calculated and number of updated weights in a file at the end of an epoch. And repeats that every epoch. This file also contains the features that the artificial neural network had at the time of that training.
+Training an artificial neural network with all training data for one cycle is called "epoch". Class LogEW stores both total error values calculated and number of updated weights in a file at the end of an epoch. And repeats that every epoch. This file also contains the features that the artificial neural network had at the time of that training.
 The following are the data saved in file LogEW.
 - Summation and activation functions of the hidden layers and the output layer (Because they are can be changed for each training).
 - Tolerances of the output layer data (Because they are can be changed for each training).
