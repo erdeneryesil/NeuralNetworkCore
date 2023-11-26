@@ -13,7 +13,7 @@ The NeuralNetworkCore library contains class NeuralNetwork that represents an ar
 
 Class NeuralNetwork is the only class whose instances will be created by those who will use this library. 
 
-The others in the NeuralNetworkCore library are classes that model the components of an artificial neural network. Instances of these classes are brought together in class NeuralNetwork to model an artificial neural network.
+The others in the NeuralNetworkCore library are classes that model the components of an artificial neural network. Instances of these classes are put together in class NeuralNetwork to model an artificial neural network.
 
 Let's take a brief look at the classes included in the NeuralNetworkCore library, from the simplest to the most complex.
 
