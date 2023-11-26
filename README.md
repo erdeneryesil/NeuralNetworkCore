@@ -119,7 +119,7 @@ The maximum number of digits is 7. So the instance of class Binary must contain 
 - Maximum value 7 (with the sign)           :   1 1 1 1         - 4 digits. First bit is the sign. 1 indicates positive.
 
 The maximum number of digits is 7. So the instance of class Binary must contain 7 digits.
-- Current value 3
+- Current value 3                           :   1 0 0 0 0 1 1   - It must be represented as 7 digits in total.
 
 ### Flag
 Works in flag logic. The flag representing the current value of the real-world data is enabled, all other flags are disabled. In the input layer of the artificial neural network, 1 represents the enabled flag and 0 represents the disabled flag. However, in the output layer, the flags can also store a pair of -1 and 1 depending on the preferred activation function.
