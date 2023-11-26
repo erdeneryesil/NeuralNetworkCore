@@ -205,7 +205,7 @@ For file ANN:
 - Location to save file ANN
 - Name of file ANN
 
-Let's see how to design the input, hidden and output layers of an artificial neural network on an <a href="https://www.kaggle.com/datasets/mirichoi0218/insurance
+Let's see how to design the input, hidden and output layers of an artificial neural network on the <a href="https://www.kaggle.com/datasets/mirichoi0218/insurance
 " >example problem.</a>
 
 The example problem is a dataset containing the annual health expenses of a certain number of people living in USA. Some of the characteristics and qualities that individuals have in the list are also included in this data set.
