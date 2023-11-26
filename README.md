@@ -76,7 +76,7 @@ The following are the data saved in file LogEW.
 - Tolerances of the output layer data (Because they are can be changed for each training).
 - Lambda and alfa values of the neural network (Because they are can be changed for each training).
 - The number of samples to be used in the training.
-- At the end of each period, both the calculated total error value and the number of updated weights.
+- At the end of each epoch, both the calculated total error value and the number of updated weights.
 
 The features mentioned in the first 4 of the 5 items listed above are added to file LogEW only once for each training. However, both the total calculated errors and the number of updated weights are added to file LogEW at the end of each cycle throughout the training. Any training can go on for thousands of epochs. File LogEW stores records for each training in a single line. So, the number of lines in file LogEW means the number of trainings.   
 
