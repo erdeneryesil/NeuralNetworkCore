@@ -181,8 +181,8 @@ To design an artificial neural network, the configurations for the input layer, 
 
 For the input layer:
 - Number of the real-world input data
-- Minimum and maximum values that real-world input values can take
-- ANN data types(Binary, Flag, Narrowed, Native) into which real-world input values will be converted
+- Minimum and maximum values that real-world input data can take
+- ANN data types(Binary, Flag, Narrowed, Native) into which real-world input data will be converted
 
 For the hidden layers:
 - Number of hidden layers
@@ -192,8 +192,8 @@ For the hidden layers:
 For the output layer
 - Number of the real-world input data
 - Summation and activation functions that for output layer
-- Minimum and maximum values that real-world output values can take
-- ANN data types(Binary, Flag, Narrowed, Native) into which real-world output values will be converted
+- Minimum and maximum values that real-world output data can take
+- ANN data types(Binary, Flag, Narrowed, Native) into which real-world output data will be converted
 - Tolerances of the output cells.
 
 For training:
@@ -218,7 +218,7 @@ The columns in the list:
   <p>Digitization of it : Female=0, Male=1</p>
   
 - <p>Bmi		: The person's body mass index. It is a decimal number. The part on the right side of the decimal point consists 3 digits.</p>
-  <p>Transformation: To convert body mass index values into integers, they are multiplied by 1000.</p>
+  <p>Transformation: To convert body mass index data into integers, they are multiplied by 1000.</p>
   
 - <p>Children	: Number of children covered by the person's health insurance / Number of dependents of the person.It is an integer.</p>
   <p>It is already numerical data, there is no need for any digitization.</p>
