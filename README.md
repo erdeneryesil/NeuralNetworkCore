@@ -4,7 +4,7 @@
 
 Using the NeuralNetworkCore library, an artificial neural network with the preferred features can be designed, trained, tested, and output values can be calculated by passing input values. Through NeuralNetworkCore, artificial neural networks can be designed that use feed-forward, supervised learning method and can be trained by the generalized delta rule.
 
-NeuralNetworkCore library contains class NeuralNetwork that represents an artificial neural network, as well as the classes that model the components that build any artificial neural network.
+The NeuralNetworkCore library contains class NeuralNetwork that represents an artificial neural network, as well as the classes that model the components that build any artificial neural network.
 
 <p align="center">
 <img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/6a6d164a-9431-40a6-9237-5cd61cd7223e" width="500"/>
