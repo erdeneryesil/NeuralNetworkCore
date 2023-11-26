@@ -86,7 +86,7 @@ The features mentioned in the first 4 of the 5 items listed above are added to f
 </p>
 This class represents an artificial neural network. Since all other classes model the components of an artificial neural network, they are directly or indirectly included in this class and build an artificial neural network.
 
-When this class is instantiated, 2 files are created. The first is the file (called file ANN) where all the properties of the artificial network are stored. The second is file LogEW, where the trainings applied to the artificial neural network is recorded, and the details about this file are specified in class LogEW. These two files are named using a user-specified phrase. For example, if the user determined the name "my_ann" while creating the artificial neural network, file ANN is named "my_ann" and file LogEw is named "my_annEW".
+When this class is instantiated, 2 files are created. The first is the file (called 'file ANN') where all the properties of the artificial network are stored. The second is file LogEW, where the trainings applied to the artificial neural network is recorded, and the details about this file are specified in class LogEW. These two files are named using a user-specified phrase. For example, if the user determined the name "my_ann" while creating the artificial neural network, file ANN is named "my_ann" and file LogEw is named "my_annEW".
 
 Apart from files ANN and LogEW, training and test set samples should be stored in different files. There is no relationship between the names of these files and the name of the artificial neural network. Training and test set files can have any name.
 
