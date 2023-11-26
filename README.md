@@ -74,7 +74,7 @@ Training an artificial neural network with all training data for one cycle is ca
 The following are the data saved in file LogEW.
 - Summation and activation functions of the hidden layers and the output layer (Because they are can be changed for each training).
 - Tolerances of the output layer data (Because they are can be changed for each training).
-- Lambda and alfa values of the neural network (Because they are can be changed for each training).
+- Lambda and alfa values of the artificial neural network (Because they are can be changed for each training).
 - The number of samples to be used in the training.
 - At the end of each epoch, both the calculated total error value and the number of updated weights.
 
@@ -94,7 +94,7 @@ Apart from files ANN and LogEW, training and test set samples should be stored i
 The data in file ANN, file LogEW, training set file and test set file are ordered one after another using the separator character, and this separator character is determined by the user when creating the artificial neural network. There are 4 options that the user can specify as separator characters. These are space( ), comma(,), semicolon(;) and pipe(|) characters.
 
 ## Data Types
-The real-world input and output values passed to an artificial neural network must be numerical in order for the neural network to understand them. For this reason within the NeuralNetworkCore library, there are classes that convert real-world input and output values into data types that the artificial neural network can handle. These are Binary, Flag, Narrowed and Native classes. These classes will be called to as ‘ANN data types’.
+The real-world input and output values passed to an artificial neural network must be numerical in order for the artificial neural network to handle them. For this reason within the NeuralNetworkCore library, there are classes that convert real-world input and output values into data types that the artificial neural network can handle. These are Binary, Flag, Narrowed and Native classes. These classes will be called to as ‘ANN data types’.
 
 ### Binary
 Converts real-world data into a type that is very similar to the binary number system, but with some differences, so that the artificial neural network can handle it.Unlike the binary number system, this class has 2 major features.The first of these is that it can also take account of the sign of numbers. And the second the bits may be different from 0-1 values. For example, if an instance of this class is used in the output layer and the preferred activation function is TanH, the bits will be -1 or 1. When converting real-world data to an instance of class Binary, the range of this data is important because the number of digits in the Binary instance will be calculated based on the absolute value of these minimum and maximum values.
@@ -174,7 +174,7 @@ Can be used if the real-world data is already in the range 0-1 and therefore doe
 
 
 ## Designing An Artificial Neural Network
-To design an artificial neural network, the configurations for the input layer, hidden layers and output layer must be determined by the user. In addition to these basic features of an artificial neural network, the parameters to be used during training of the neural network and the information required to store the artificial neural network as a file should also be passed.
+To design an artificial neural network, the configurations for the input layer, hidden layers and output layer must be determined by the user. In addition to these basic features of an artificial neural network, the parameters to be used during training of the artificial neural network and the information required to store the artificial neural network as a file should also be passed.
 
 For the input layer:
 - Number of the real-world input data
