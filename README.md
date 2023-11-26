@@ -173,7 +173,7 @@ Scales real-world data. A real world data is scaled from 0 to 1 and this scaled 
 
 
 ### Native
-Can be used if the real-world data is already in the range 0-1 and therefore does not need any transformations. The real world data and the data stored in the instance of class Native are exactly the same and have a value between 0 and 1. The value in object Native is not modificated. If scaling is required in a different range according to the activation function of the output layer, it is calculated instantly and returned.
+Can be used if the real-world data is already in the range 0-1 and therefore does not need any convertions. The real world data and the data stored in the instance of class Native are exactly the same and have a value between 0 and 1. The value in object Native is not modificated. If scaling is required in a different range according to the activation function of the output layer, it is calculated instantly and returned.
 
 
 ## Designing An Artificial Neural Network
