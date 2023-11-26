@@ -143,7 +143,7 @@ Like class Binary, instance of class Flag can take account of the sign of number
 
 
 ### Narrowed
-Scales real-world data. A real world data is scaled from 0 to 1 and this scaled data is retained, not modificated. If scaling is required in a different range according to the activation function of the output layer, it is calculated instantly and returned. The value scaled between 0 and 1 stored in Narrowed object is never modificated.
+Scales real-world data. A real world data is scaled from 0 to 1 and this scaled data is retained, not modificated. If scaling is required in a different range according to the activation function of the output layer, it is calculated instantly and returned. The value scaled between 0 and 1 stored in object Narrowed is never modificated.
 
 <ins><b>Example 1:</ins></b> 
 - Minimum value of the real-world data    : 0
