@@ -223,7 +223,7 @@ The columns in the list:
 - <p>Children	: Number of children covered by the person's health insurance / Number of dependents of the person.It is an integer.</p>
   <p>It is already numerical data, there is no need for any digitization.</p>
   
-- <p>Smooker	: Whether the person smokes or not. It is a categorical data. Options: Yes, No:Hayır.</p>
+- <p>Smooker	: Whether the person smokes or not. It is a categorical data. Options: Yes, No </p>
   <p>Digitization of it : No=-1, Yes=1 (The values -1 and 1 were determined arbitrarily).</p>
   
 - <p>Region	: The region where the person lives. It is a categorical data. Options: Southeast , Northeast , Northwest , Southwest.</p>
