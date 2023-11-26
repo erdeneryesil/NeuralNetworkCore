@@ -145,7 +145,8 @@ Like class Binary, instance of class Flag can take account of the sign of number
 ### Narrowed
 Scales real-world data. A real world data is scaled from 0 to 1 and this scaled data is retained, not modificated. If scaling is required in a different range according to the activation function of the output layer, it is calculated instantly and returned. The value scaled between 0 and 1 stored in Narrowed object is never modificated.
 
-<ins><b>Example 1:</ins></b> Minimum value of the real-world data    : 0
+<ins><b>Example 1:</ins></b> 
+- Minimum value of the real-world data    : 0
 - Maximum value of the real-world data    : 100
 - Activation Function                     : Sigmoid(0,1)
 - If the current value of the real-world data is 0, object Narrowed stores 0.0
@@ -153,7 +154,8 @@ Scales real-world data. A real world data is scaled from 0 to 1 and this scaled 
 - If the current value of the real-world data is 50, object Narrowed stores 0.5
 - If the current value of the real-world data is 100, object Narrowed stores 1.0
 
-<ins><b>Example 2:</ins></b> Minimum value of the real-world data    : 0
+<ins><b>Example 2:</ins></b> 
+- Minimum value of the real-world data    : 0
 - Maximum value of the real-world data    : 100
 - Activation Function                     : TanH(-1,1)
 - If the current value of the real-world data is 0, object Narrowed stores -1.0
@@ -161,7 +163,8 @@ Scales real-world data. A real world data is scaled from 0 to 1 and this scaled 
 - If the current value of the real-world data is 50, object Narrowed stores 0.0
 - If the current value of the real-world data is 100, object Narrowed stores 1.0
 
-<ins><b>Example 3:</ins></b> Minimum value of the real-world data    : -50
+<ins><b>Example 3:</ins></b> 
+- Minimum value of the real-world data    : -50
 - Maximum value of the real-world data    : 50
 - Activation Function                     : Sigmoid(0,1)
 - If the current value of the real-world data is -50, object Narrowed stores 0.0
