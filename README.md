@@ -63,7 +63,7 @@ The number of hidden layers, the number of cells of each hidden layer, the summa
 <p align="center">
 <img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/337ca0b1-94fe-4c14-96fb-90918f0c5f4c" height="400"/>
 </p>
-Contains and manages the features of the output layer of an artificial neural network. This class can be considered as a template just like classes InputLayerPattern and OutputLayerPattern. Cells(or neurons) that compose the output layer of an artificial neural network are not included in this class.
+Contains and manages the features of the output layer of an artificial neural network. This class can be considered as a template just like classes InputLayerPattern and HiddenLayerPattern. Cells(or neurons) that compose the output layer of an artificial neural network are not included in this class.
 
 Features such as how many cells are in the output layer or what real world data the outputs from these cells will be converted to are handled by this class.
 
