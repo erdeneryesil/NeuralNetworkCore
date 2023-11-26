@@ -202,7 +202,7 @@ For training:
 
 For file ANN:
 - Separator character(comma(,)  semicolon(;) etc.)
-- Locaiton to save file ANN
+- Location to save file ANN
 - Name of file ANN
 
 Let's see how to design the input, hidden and output layers of an artificial neural network on an <a href="https://www.kaggle.com/datasets/mirichoi0218/insurance
