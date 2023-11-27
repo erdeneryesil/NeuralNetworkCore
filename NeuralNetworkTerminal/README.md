@@ -204,7 +204,7 @@ File <b>insuranceEW</b> stores the training records of the artificial neural net
 
 
 ## Opening an Existing Neural Network
-### Step 1 : OPEN OR CREATE A NEURAL NETWROK
+### Step 1 : OPEN OR CREATE A NEURAL NETWORK
 <p align="center">
 <img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/d9cb1e39-2d3a-48d4-9ec4-23c8f49cc511" width="800"/>
 </p>
