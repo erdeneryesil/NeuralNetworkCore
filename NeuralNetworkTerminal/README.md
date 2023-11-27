@@ -246,7 +246,7 @@ The artificial neural network can be trained by entering 0 in <b>Operation</b> m
 <p align="center">
 <img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/55ad77a8-651e-40dd-804f-476e7c1f424c" width="800"/>
 </p>
-Let's put the training and test set files(<b>Train</b>, <b>Test</b>) in the source file directory, just like <b>insurance</b> and <b>insuranceEW</b> files.<br /> <br />
+Let's put the training and test set files(<b>Train</b>, <b>Test</b>) in the source file directory, just like files <b>insurance</b> and <b>insuranceEW</b>.<br /> <br />
 There were a total of 1338 rows in the dataset of our example problem. In other words, information about 1338 people is included in our data set. 
 But since we categorized <b>Charges</b> column between 0-6, data repetition occurred in some records. records decreased from 1338 to 1335, meaning 3 rows were deleted. 
 Of the 1335 rows, 935 were transferred to the training set and 400 were transferred to the test set.
