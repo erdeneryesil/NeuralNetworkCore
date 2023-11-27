@@ -49,7 +49,6 @@ Since this data has a very wide range, it was divided into a total of 7 categori
 25000-35000 &nbsp; &nbsp; :	4 <br />
 35000-50000 &nbsp; &nbsp; :	5 <br />
 50000-65000 &nbsp; &nbsp; :	6 <br /><br />
-
 <p>Inputs : Age, Sex, Bmi, Children, Smooker, Region</p>
 <p>Output: Charges</p>
 
