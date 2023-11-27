@@ -236,7 +236,7 @@ The lambda and the alpha values of an existing artificial neural network can be 
 <img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/7e76e029-7fb1-4cac-8ef1-26b3469cd1aa" width="600"/>
 </p>
 
-First, let's put the training and test set files(<b>Train</b>, <b>Test</b>) in <b>sample</b> directory, just like files insurance and insuranceEW.
+First, let's put the training and test set files(<b>Train</b>, <b>Test</b>) in <b>sample</b> directory, just like files <b>insurance</b> and <b>insuranceEW</b>.
 
 There were a total of 1338 rows in the dataset of our example problem. In other words, information about 1338 people is included in our data set. But since we categorized the <b>Charges</b> column between 0-6, data repetition occurred in some records. The records decreased from 1338 to 1335, meaning 3 rows were deleted. 
 Of the 1335 rows, 935 were transferred to the training set and 400 were transferred to the test set.
