@@ -66,12 +66,12 @@ Step 4 : File and training parameters are determined.<br/>
 
 The features that need to be determined in the <b>Input Layer</b> window:<br/>
 -The number of real-world data that will be passed to the input layer of the artificial neural network.<br/>
--Real-world input data passed to the artificial neural network must be converted to ‘ANN data types' before it can be processed by the neural network.<br/>
+-Real-world input data passed to the artificial neural network must be converted to <b>ANN data types</b> before it can be processed by the neural network.<br/>
 -The min and max range of the input values.<br/><br/>
 
 Let's design the input layer for our example:<br/>
 -The number of inputs : 6<br/>
--'ANN data types' into which real-world input data will be converted.<br/>
+-<b>ANN data types</b> into which real-world input data will be converted.<br/>
  	&nbsp; &nbsp;&nbsp; &nbsp;-Age -> Binary<br/>
  	&nbsp; &nbsp;&nbsp; &nbsp;-Sex -> Native<br/>
  	&nbsp; &nbsp;&nbsp; &nbsp;-Bmi -> Narrowed<br/>
@@ -119,7 +119,7 @@ The features that need to be determined in the <b>Output Layer</b> window:<br/>
 -The number of real world output data. (The artificial neural network can contain more than 1 output data ) <br/>
 -The summation function of the output layer<br/>
 -The activation function of the output layer<br/>
--Just like inputs, output data needs to be converted into 'ANN data types' that the artificial neural network can process.<br/>
+-Just like inputs, output data needs to be converted into <b>ANN data types</b> that the artificial neural network can process.<br/>
 -The min and max range of the output values.<br/>
 -The tolerance values of the output cells. When training our network, what is the acceptable margin of error regarding the expected outputs from the output cells? Each output cell will produce a value between 0 and 1. Therefore, we must take this into consideration when determining the tolerance.<br/><br/>
 
