@@ -143,7 +143,7 @@ Just like inputs, output data needs to be converted into <b>ANN data types</b> t
 <p align="center">
 <img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/8ded4c9f-6e71-480f-b551-41e0677bd55a" width="800"/>
 </p>
-The summation function of the output layers must be entered.<br /><br />
+The summation function of the output layer must be entered.<br /><br />
 - Let the summation function of the output layer be WeightedTotal , let's enter 0.
 
 
@@ -151,7 +151,7 @@ The summation function of the output layers must be entered.<br /><br />
 <p align="center">
 <img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/ca5a2739-ceb4-446b-902e-9d57095cf97b" width="800"/>
 </p>
-The activation function of the output layers must be entered.<br /><br />
+The activation function of the output layer must be entered.<br /><br />
 - Let the activation function of the output layer be Sigmoid, let's enter 0.
 
 
