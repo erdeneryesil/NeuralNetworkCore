@@ -93,7 +93,7 @@ The min and max range of the input values must be entered.<br /><br />
 - Bmi : Min=15960, Max=53130 <br />
 - Children : Min=0, Max=5 <br />
 - Smoker : Min = -1 Max=1 <br />
-- Region : Min= -2, Max=+2 <br />
+- Region : Min= -2, Max=2 <br />
 
 ### Step 5 : NUMBER OF HIDDEN LAYER
 <p align="center">
