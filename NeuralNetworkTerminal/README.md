@@ -8,7 +8,7 @@ NeuralNetworkTerminal is an application run in terminal, where operations such a
 
 When we run the application, we see the name of our application, <b>NEURAL NETWORK TERMINAL</b>, at the top.
 
-Since the application will be managed via terminal, the options will be determined using numbers. So, no matter what level of the menu, we will make every choice with numbers.
+Since the application will be managed via terminal, the options will be determined using numbers. So, no matter what level of the menu, every selection will be made with numbers.
 
 The options to be selected in the application were divided into certain categories, and each of these categories was shown as titles written in capital letters.
 
