@@ -199,8 +199,8 @@ The names of the files in which the features of the artificial neural network ar
 
 Two files were created named 'insurance' and 'insuranceEW'.<br />
 
-File <b>insurance</b> will store the properties and parameters of the artificial neural network.<br />
-File <b>insuranceEW</b> will store the training records of the artificial neural network.
+File <b>insurance</b> stores the properties and parameters of the artificial neural network.<br />
+File <b>insuranceEW</b> stores the training records of the artificial neural network.
 
 
 ## Opening an Existing Neural Network
