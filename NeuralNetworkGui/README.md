@@ -4,7 +4,7 @@
 <img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/fbcb7247-ce68-42c3-a17e-6f97933f2e87" width="800"/>
 </p>
 
-NeuralNetworkGui is a graphical user interface application that allows operations such as creating, training, testing artificial neural network etc. using the NeuralNetworkCore library. The front end of the application was developed using the Qt Framework.
+NeuralNetworkGui is a graphical user interface application that allows operations such as creating, training, testing artificial neural network etc. using the NeuralNetworkCore library. The front-end of the application was developed using the Qt Framework.
 
 There is a menu on the left side of the application and an empty white area on the right side. When an artificial neural network is created or an existing artificial neural network is opened, there will be a drawing symbolizing the architecture of the artificial neural network in that empty white space.
 
