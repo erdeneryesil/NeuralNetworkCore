@@ -127,7 +127,7 @@ Let's design the output layer for our example:<br/>
 -The number of outputs : 1<br/>
 -The summation function: Weighted Total<br/>
 -The activation function : Sigmoid<br/>
--'ANN data type' into which real-world output data will be converted. <br/>
+-<b>ANN data type</b> into which real-world output data will be converted. <br/>
 &nbsp; &nbsp;&nbsp; &nbsp;-Charges -> Flag<br/>
 -The min and max range of the output value:  0 – 6<br/>
 -The tolerance value : 0.1<br/>
