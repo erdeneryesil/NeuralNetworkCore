@@ -49,7 +49,9 @@ Since this data has a very wide range, it was divided into a total of 7 categori
 25000-35000 &nbsp; &nbsp; :	4 <br />
 35000-50000 &nbsp; &nbsp; :	5 <br />
 50000-65000 &nbsp; &nbsp; :	6 <br /><br />
-The dataset contains 7 fields. The first 6 of these will be our input data, and the last column, charges, will be our output data.
+
+<p>Inputs : Age, Sex, Bmi, Children, Smooker, Region</p>
+<p>Output: Charges</p>
 
 ## Creating a New Artificial Neural Network
 ### Step 1 : OPEN OR CREATE A NEURALNETWORK
