@@ -160,7 +160,7 @@ Let’s define training and file parameters:<br/>
 <img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/982d60f4-7c11-4ae5-8bea-deb5e0775032" width="400"/>
 </p>
 
-Two files were created named <b>insurance</b> and <b>insuranceEW</b> in sample directory.
+Two files were created named <b>insurance</b> and <b>insuranceEW</b> in <b>sample</b> directory.
 
 File <b>insurance</b> stores the properties and parameters of the artificial neural network.<br/>
 File <b>insuranceEW</b> will store the training records of the artificial neural network.<br/>
