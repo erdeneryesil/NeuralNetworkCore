@@ -75,7 +75,7 @@ The number of real-world data that will be passed to the input layer of the arti
 <p align="center">
 <img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/85fcd290-0abd-41e7-883e-73898b5bbace" width="800"/>
 </p>
-Real-world input data passed to the artificial neural network must be converted to ‘ANN data types' before it can be processed by the neural network.<br /><br />
+Real-world input data passed to the artificial neural network must be converted to <b>ANN data types</b> before it can be processed by the neural network.<br /><br />
 - Age - Binary <br />
 - Sex - Native <br />
 - Bmi - Narrowed <br />
@@ -135,7 +135,7 @@ The number of output data must be entered.<br /><br />
 <p align="center">
 <img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/1470fc48-93ba-4ce4-b65a-91ceff9fba3c" width="800"/>
 </p>
-Just like inputs, output data needs to be converted into 'ANN data types' that the artificial neural network can process.<br /><br />
+Just like inputs, output data needs to be converted into <b>ANN data types</b> that the artificial neural network can process.<br /><br />
  - Charges - Flag 
 
 
