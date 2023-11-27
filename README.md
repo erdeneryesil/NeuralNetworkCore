@@ -211,34 +211,37 @@ Let's see how to design the input, hidden and output layers of an artificial neu
 The example problem is a dataset containing the annual health expenses of a certain number of people living in USA. Some of the characteristics and qualities that individuals have in the list are also included in this data set.
 
 The columns in the list:
-- <p>Age		: Person’s age. It is an integer.</p>
-  <p>It is already numerical data, there is no need for any digitization.</p>
-  
-- <p>Sex		: Person’s gender. It is a categorical data. Options: Female, Male.</p>
-  <p>Digitization of it : Female=0, Male=1</p>
-  
-- <p>Bmi		: The person's body mass index. It is a decimal number. The part on the right side of the decimal point consists 3 digits.</p>
-  <p>Transformation: To convert body mass index data into integers, they are multiplied by 1000.</p>
-  
-- <p>Children	: Number of children covered by the person's health insurance / Number of dependents of the person.It is an integer.</p>
-  <p>It is already numerical data, there is no need for any digitization.</p>
-  
-- <p>Smooker	: Whether the person smokes or not. It is a categorical data. Options: Yes, No </p>
-  <p>Digitization of it : No=-1, Yes=1 (The values -1 and 1 were determined arbitrarily).</p>
-  
-- <p>Region	: The region where the person lives. It is a categorical data. Options: Southeast , Northeast , Northwest , Southwest.</p>
-  <p>Digitization of it :   Southeast = -2, Northeast = -1, Northwest = 1, Southwest = 2 (The values were determined arbitrarily).</p>
-  
-- <p>Charges	: Individual medical costs billed by health insurance. It is a decimal number.</p>
-  <p>Since this data has a very wide range, it was divided into a total of 7 categories</p>
-  
-  - 0-5000				    : 0
-  - 5000-10000			 :	1
-  - 10000-15000   : 2
-  - 15000-25000   : 3
-  - 25000-35000   : 4
-  - 35000-50000   : 5
-  - 50000-65000			:	6
+
+<b>Age		:</b>	Person’s age. It is an integer.<br />
+It is already numerical data, there is no need for any digitization.
+
+<b>Sex		:</b>	Person’s gender. It is a categorical data.<br />
+Options: Female, Male.<br />
+Digitization of it : Female=0, Male=1
+
+<b>Bmi		:</b>	The person's body mass index. It is a decimal number. The part on the right side of the decimal point consists 3 digits.<br />
+Transformation: To convert body mass index values into integers, they are multiplied by 1000.
+
+<b>Children	:</b>	Number of children covered by the person's health insurance / Number of dependents of the person.It is an integer.<br />
+It is already numerical data, there is no need for any digitization.
+
+<b>Smoker		:</b>	Whether the person smokes or not. It is a categorical data.<br />
+Options: Yes, No  <br />
+Digitization of it : No=-1, Yes=1 (The values -1 and 1 were determined arbitrarily.)
+
+<b>Region		:</b>	The region where the person lives. It is a categorical data. <br />
+Options: Southeast , Northeast , Northwest , Southwest . <br />
+Digitization of it :   Southeast = -2, Northeast = -1, Northwest = 1, Southwest = 2 (The values were determined arbitrarily.)
+
+<b>Charges	:</b>	Individual medical costs billed by health insurance. It is a decimal number.<br />
+Since this data has a very wide range, it was divided into a total of 7 categories <br /><br />
+0-5000 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; : 	0 <br />
+5000-10000 &nbsp; &nbsp; &nbsp; :	1 <br />
+10000-15000 &nbsp; &nbsp; :	2 <br />
+15000-25000 &nbsp; &nbsp; :	3 <br />
+25000-35000 &nbsp; &nbsp; :	4 <br />
+35000-50000 &nbsp; &nbsp; :	5 <br />
+50000-65000 &nbsp; &nbsp; :	6 <br /><br />
   
 <p>Inputs : Age, Sex, Bmi, Children, Smooker, Region</p>
 <p>Output: Charges</p>
