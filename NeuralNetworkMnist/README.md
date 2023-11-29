@@ -47,7 +47,7 @@ The files included in the MNIST database are listed below.
 The contents of the 4 files in the Mnist database are not directly accessible and readable. In other words, it is not possible to read the content by opening it with an application such as notepad. However, these contents need to be handled and processed by NeuralNetworkMnist. <a href="https://github.com/arpaka/mnist-loader ">MNIST loader</a> project was used to achieve this transformation.
 
 
-The files in the <a href="http://yann.lecun.com/exdb/mnist/">MNIST database</a> and the source codes of the <a href="https://github.com/arpaka/mnist-loader ">MNIST loader project</a>  are located in the <a href="https://github.com/erdeneryesil/NeuralNetworkCore/tree/master/NeuralNetworkMnist/convertMnist">convertMnist</a> directory. When file <b>main.cpp</b> is compiled and run, two files named <b>trainMNIST</b> and <b>testMNIST</b> will be created.
+In the NeuralNetworkMnist project, the files in the <a href="http://yann.lecun.com/exdb/mnist/">MNIST database</a> and the source codes of the <a href="https://github.com/arpaka/mnist-loader ">MNIST loader project</a>  are located in the <a href="https://github.com/erdeneryesil/NeuralNetworkCore/tree/master/NeuralNetworkMnist/convertMnist">convertMnist</a> directory. When file <b>main.cpp</b> is compiled and run, two files named <b>trainMNIST</b> and <b>testMNIST</b> will be created.
 
 <b>-trainMNIST :</b> Training data in the MNIST database has become available to be handled by NeuralNetworkMnist and it was saved to this file.<br />
 <b>-testMNIST :</b> Test data was also converted and stored.<br />
