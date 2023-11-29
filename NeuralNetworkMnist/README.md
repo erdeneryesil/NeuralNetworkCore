@@ -86,7 +86,7 @@ Let's design the input layer for Mnist database : <br/>
 
 Each of the images in the Mnist dataset is 28px wide and 28px high. Therefore, it contains 784 pixels. <br /><br />
 
--'ANN data types' into which real-world input data will be converted. <br/>
+-<b>ANN data types</b> into which real-world input data will be converted. <br/>
 Pixel data in the input layer of the artificial neural network was converted to <b>Native</b> type. <br /><br />
 
 <p align="center">
@@ -143,7 +143,7 @@ The features that need to be determined in the <b>Output Layer</b> window:<br/>
 -The number of real world output data. (The artificial neural network can contain more than 1 output data ) <br/>
 -The summation function of the output layer<br/>
 -The activation function of the output layer<br/>
--Just like inputs, output data needs to be converted into 'ANN data types' that the artificial neural network can process.<br/>
+-Just like inputs, output data needs to be converted into <b>ANN data types</b> that the artificial neural network can process.<br/>
 -The min and max range of the output values.<br/>
 -The tolerance values of the output cells. When training our network, what is the acceptable margin of error regarding the expected outputs from the output cells? Each output cell will produce a value between 0 and 1. Therefore, we must take this into consideration when determining the tolerance.<br/><br/>
 
@@ -151,7 +151,7 @@ Let's design the output layer for our example:<br/>
 -The number of outputs : 1<br/>
 -The summation function: Weighted Total<br/>
 -The activation function : Sigmoid<br/>
--'ANN data type' into which the digit data will be converted : Flag <br/>
+-<b>ANN data type</b> into which the digit data will be converted : Flag <br/>
 -The min and max range of the output value:  0 – 9<br/>
 -The tolerance value : 0.1<br/>
 
