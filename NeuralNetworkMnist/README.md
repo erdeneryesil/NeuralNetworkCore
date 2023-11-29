@@ -74,7 +74,7 @@ Step 4 : File and training parameters are determined.<br/>
 
 The features that need to be determined in the <b>Input Layer</b> window:<br/>
 -The number of real-world data that will be passed to the input layer of the artificial neural network.<br/>
--Real-world input data passed to the artificial neural network must be converted to ‘ANN data types' before it can be processed by the neural network.<br/>
+-Real-world input data passed to the artificial neural network must be converted to <b>ANN data types</b> before it can be processed by the neural network.<br/>
 -The min and max range of the input values.<br/><br/>
 
 Let's design the input layer for Mnist database : <br/>
