@@ -13,7 +13,7 @@ There is a menu on the left side of the application and an empty white area on t
 <p align="center">
 <img src="https://github.com/erdeneryesil/NeuralNetworkCore/assets/14914042/8a776959-a4cb-45f1-bf72-eda68467a896" width="600"/>
 </p>
-Mnist database is a dataset containing images of handwritten numbers. It contains tens of thousands of samples. There are a total of 70000 hand-written number images. 60000 of them are used for training and the remaining 10000 are used for testing. <br/><br/>
+The Mnist database is a dataset containing images of handwritten numbers. It contains tens of thousands of samples. There are a total of 70000 hand-written number images. 60000 of them are used for training and the remaining 10000 are used for testing. <br/><br/>
 
 
 <p align="center">
