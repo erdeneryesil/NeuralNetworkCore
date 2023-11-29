@@ -165,7 +165,7 @@ The features that need to be determined in the <b>Training and File Settings</b>
 -Training features:<br/>
 &nbsp; &nbsp;&nbsp; &nbsp;-The lambda value<br/>
 &nbsp; &nbsp;&nbsp; &nbsp;-The alfa value<br/>
-&nbsp; &nbsp;&nbsp; &nbsp;-‘Random weight min’ ve ‘Random weight  max’Y : When the artificial neural network is first created, the weight value of each cell's connections is determined randomly. The min and max range of that random values needs to be specified.<br/>
+&nbsp; &nbsp;&nbsp; &nbsp;-‘Random weight min’ ve ‘Random weight  max’ : When the artificial neural network is first created, the weight value of each cell's connections is determined randomly. The min and max range of that random values needs to be specified.<br/>
 -File features:<br/>
 &nbsp; &nbsp;&nbsp; &nbsp;-All data related to the artificial neural network is stored in files, and when sorting the data in the files, a character must be placed between them.<br/>
 &nbsp; &nbsp;&nbsp; &nbsp;-The location where the files to be created will be stored.<br/>
